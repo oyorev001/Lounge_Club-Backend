@@ -1,0 +1,18 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "LoungeClubsApi | v1",
+    "version": "1.0.0"
+  },
+  "paths": { },
+  "components": {
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "JWT Bearer token authentication",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}

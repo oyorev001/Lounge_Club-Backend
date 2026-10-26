@@ -1,0 +1,941 @@
+2026-10-07 00:56:04.744 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("438ebd4c-09e7-4ac4-bfd0-c1a38618b530") from ExecutionTaskHandler
+2026-10-07 00:56:04.890 +01:00 [INF] TickerQ Job completed: EmailOutbox ("438ebd4c-09e7-4ac4-bfd0-c1a38618b530") in 10ms - Success: true
+2026-10-07 01:10:33.450 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("438ebd4c-09e7-4ac4-bfd0-c1a38618b530") from ExecutionTaskHandler
+2026-10-07 01:10:33.466 +01:00 [INF] TickerQ Job completed: EmailOutbox ("438ebd4c-09e7-4ac4-bfd0-c1a38618b530") in 15ms - Success: true
+2026-10-07 01:26:35.952 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9e779360-d077-4c75-81e5-ba3b8b0419ea") from ExecutionTaskHandler
+2026-10-07 01:26:35.961 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9e779360-d077-4c75-81e5-ba3b8b0419ea") in 7ms - Success: true
+2026-10-07 01:44:09.257 +01:00 [INF] Executing query GetTiersQuery
+2026-10-07 01:44:09.338 +01:00 [INF] Query GetTiersQuery executed successfully in 80 ms
+2026-10-07 01:44:09.342 +01:00 [INF] HTTP GET /api/v1/tiers responded 200 in 90.5355 ms
+2026-10-07 01:44:09.344 +01:00 [INF] Executing query GetCurrentUserQuery
+2026-10-07 01:44:09.390 +01:00 [INF] Query GetCurrentUserQuery executed successfully in 45 ms
+2026-10-07 01:44:09.390 +01:00 [INF] HTTP GET /api/v1/users/me responded 200 in 140.0322 ms
+2026-10-07 01:57:14.148 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f999caf5-8893-42df-8405-577c69a64673") from ExecutionTaskHandler
+2026-10-07 01:57:14.153 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f999caf5-8893-42df-8405-577c69a64673") in 4ms - Success: true
+2026-10-07 01:57:14.639 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f999caf5-8893-42df-8405-577c69a64673") from ExecutionTaskHandler
+2026-10-07 01:57:14.642 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f999caf5-8893-42df-8405-577c69a64673") in 2ms - Success: true
+2026-10-07 02:45:38.254 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bacfb314-ba1f-4770-a8c9-65b4d09b6cff") from ExecutionTaskHandler
+2026-10-07 02:45:38.254 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("0510bb57-7fa1-4fd6-9a85-9a14dc32d2da") from ExecutionTaskHandler
+2026-10-07 02:45:38.258 +01:00 [INF] TickerQ Job completed: SmsOutbox ("0510bb57-7fa1-4fd6-9a85-9a14dc32d2da") in 1ms - Success: true
+2026-10-07 02:45:38.288 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bacfb314-ba1f-4770-a8c9-65b4d09b6cff") in 31ms - Success: true
+2026-10-07 02:45:53.973 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bacfb314-ba1f-4770-a8c9-65b4d09b6cff") from ExecutionTaskHandler
+2026-10-07 02:45:53.973 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("0510bb57-7fa1-4fd6-9a85-9a14dc32d2da") from ExecutionTaskHandler
+2026-10-07 02:45:53.973 +01:00 [INF] TickerQ Job completed: SmsOutbox ("0510bb57-7fa1-4fd6-9a85-9a14dc32d2da") in 0ms - Success: true
+2026-10-07 02:45:54.002 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bacfb314-ba1f-4770-a8c9-65b4d09b6cff") in 29ms - Success: true
+2026-10-07 02:47:29.414 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("069ed7e5-64aa-43c8-ba93-643a90b62f8b") from ExecutionTaskHandler
+2026-10-07 02:47:29.414 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("1cceb9d6-49d0-4984-b8b2-cfb6e4b8816b") from ExecutionTaskHandler
+2026-10-07 02:47:29.415 +01:00 [INF] TickerQ Job completed: SmsOutbox ("1cceb9d6-49d0-4984-b8b2-cfb6e4b8816b") in 0ms - Success: true
+2026-10-07 02:47:29.418 +01:00 [INF] TickerQ Job completed: EmailOutbox ("069ed7e5-64aa-43c8-ba93-643a90b62f8b") in 3ms - Success: true
+2026-10-07 02:48:47.160 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("2815248e-7f8c-465c-8b8b-43d19b594a7b") from ExecutionTaskHandler
+2026-10-07 02:48:47.160 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("c51aa725-ebfe-4375-a8d1-107ba4d0fa9e") from ExecutionTaskHandler
+2026-10-07 02:48:47.162 +01:00 [INF] TickerQ Job completed: SmsOutbox ("c51aa725-ebfe-4375-a8d1-107ba4d0fa9e") in 0ms - Success: true
+2026-10-07 02:48:47.189 +01:00 [INF] TickerQ Job completed: EmailOutbox ("2815248e-7f8c-465c-8b8b-43d19b594a7b") in 26ms - Success: true
+2026-10-07 02:49:43.240 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("42f286ff-3b98-4c27-910b-6aebaee87321") from ExecutionTaskHandler
+2026-10-07 02:49:43.250 +01:00 [INF] TickerQ Job completed: EmailOutbox ("42f286ff-3b98-4c27-910b-6aebaee87321") in 8ms - Success: true
+2026-10-07 02:50:49.752 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("a803ae08-f97e-45ce-9c31-4efa88d52a62") from ExecutionTaskHandler
+2026-10-07 02:50:49.754 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("328ce3ce-b616-40b0-ad76-61a3f514b7cd") from ExecutionTaskHandler
+2026-10-07 02:50:49.755 +01:00 [INF] TickerQ Job completed: SmsOutbox ("328ce3ce-b616-40b0-ad76-61a3f514b7cd") in 0ms - Success: true
+2026-10-07 02:50:49.782 +01:00 [INF] TickerQ Job completed: EmailOutbox ("a803ae08-f97e-45ce-9c31-4efa88d52a62") in 28ms - Success: true
+2026-10-07 02:51:00.035 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4114812f-2944-4f30-9339-a5f1179d0ebf") from ExecutionTaskHandler
+2026-10-07 02:51:00.039 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4114812f-2944-4f30-9339-a5f1179d0ebf") in 2ms - Success: true
+2026-10-07 02:52:18.499 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("3fd28b92-20ef-45f4-a20f-f5731751d174") from ExecutionTaskHandler
+2026-10-07 02:52:18.499 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("60b1df95-9704-46bd-8e15-32f05f626ea8") from ExecutionTaskHandler
+2026-10-07 02:52:18.500 +01:00 [INF] TickerQ Job completed: SmsOutbox ("3fd28b92-20ef-45f4-a20f-f5731751d174") in 0ms - Success: true
+2026-10-07 02:52:18.503 +01:00 [INF] TickerQ Job completed: EmailOutbox ("60b1df95-9704-46bd-8e15-32f05f626ea8") in 3ms - Success: true
+2026-10-07 02:58:22.612 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("60b1df95-9704-46bd-8e15-32f05f626ea8") from ExecutionTaskHandler
+2026-10-07 02:58:22.625 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("3fd28b92-20ef-45f4-a20f-f5731751d174") from ExecutionTaskHandler
+2026-10-07 02:58:22.627 +01:00 [INF] TickerQ Job completed: SmsOutbox ("3fd28b92-20ef-45f4-a20f-f5731751d174") in 1ms - Success: true
+2026-10-07 02:58:22.689 +01:00 [INF] TickerQ Job completed: EmailOutbox ("60b1df95-9704-46bd-8e15-32f05f626ea8") in 74ms - Success: true
+2026-10-07 03:31:05.608 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("3e6e51c5-964b-4f8e-8030-88081d315d60") from ExecutionTaskHandler
+2026-10-07 03:31:05.611 +01:00 [INF] TickerQ Job completed: EmailOutbox ("3e6e51c5-964b-4f8e-8030-88081d315d60") in 2ms - Success: true
+2026-10-07 03:58:58.527 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("3e6e51c5-964b-4f8e-8030-88081d315d60") from ExecutionTaskHandler
+2026-10-07 03:58:58.539 +01:00 [INF] TickerQ Job completed: EmailOutbox ("3e6e51c5-964b-4f8e-8030-88081d315d60") in 11ms - Success: true
+2026-10-07 03:59:00.020 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("1f026dd8-37f5-436c-9b98-aeb8889f00c4") from ExecutionTaskHandler
+2026-10-07 03:59:00.023 +01:00 [INF] TickerQ Job completed: EmailOutbox ("1f026dd8-37f5-436c-9b98-aeb8889f00c4") in 2ms - Success: true
+2026-10-07 04:01:26.216 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - PaymentTimeout ("e57934dc-1e4b-4f8f-a827-46ac964ffc09") from ExecutionTaskHandler
+2026-10-07 04:01:26.216 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("e2533e70-5386-43f4-b75f-912b199042b1") from ExecutionTaskHandler
+2026-10-07 04:01:26.216 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("0e9ffc07-0b1c-44cd-9d44-e808b27b50a1") from ExecutionTaskHandler
+2026-10-07 04:01:26.217 +01:00 [INF] TickerQ Job completed: SmsOutbox ("e2533e70-5386-43f4-b75f-912b199042b1") in 0ms - Success: true
+2026-10-07 04:01:26.221 +01:00 [INF] TickerQ Job completed: EmailOutbox ("0e9ffc07-0b1c-44cd-9d44-e808b27b50a1") in 4ms - Success: true
+2026-10-07 04:01:26.244 +01:00 [INF] PaymentTimeout job ran — no expired transactions.
+2026-10-07 04:01:26.244 +01:00 [INF] TickerQ Job completed: PaymentTimeout ("e57934dc-1e4b-4f8f-a827-46ac964ffc09") in 27ms - Success: true
+2026-10-07 04:02:31.984 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - PaymentTimeout ("e57934dc-1e4b-4f8f-a827-46ac964ffc09") from ExecutionTaskHandler
+2026-10-07 04:02:31.984 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("e2533e70-5386-43f4-b75f-912b199042b1") from ExecutionTaskHandler
+2026-10-07 04:02:31.984 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("0e9ffc07-0b1c-44cd-9d44-e808b27b50a1") from ExecutionTaskHandler
+2026-10-07 04:02:31.987 +01:00 [INF] TickerQ Job completed: SmsOutbox ("e2533e70-5386-43f4-b75f-912b199042b1") in 1ms - Success: true
+2026-10-07 04:02:31.997 +01:00 [INF] TickerQ Job completed: EmailOutbox ("0e9ffc07-0b1c-44cd-9d44-e808b27b50a1") in 11ms - Success: true
+2026-10-07 04:02:32.010 +01:00 [INF] PaymentTimeout job ran — no expired transactions.
+2026-10-07 04:02:32.010 +01:00 [INF] TickerQ Job completed: PaymentTimeout ("e57934dc-1e4b-4f8f-a827-46ac964ffc09") in 25ms - Success: true
+2026-10-07 04:03:34.610 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("5c4ac82b-9c38-4d03-b88d-f49c56b672f1") from ExecutionTaskHandler
+2026-10-07 04:03:34.614 +01:00 [INF] TickerQ Job completed: EmailOutbox ("5c4ac82b-9c38-4d03-b88d-f49c56b672f1") in 3ms - Success: true
+2026-10-07 04:04:31.741 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("5c4ac82b-9c38-4d03-b88d-f49c56b672f1") from ExecutionTaskHandler
+2026-10-07 04:04:31.744 +01:00 [INF] TickerQ Job completed: EmailOutbox ("5c4ac82b-9c38-4d03-b88d-f49c56b672f1") in 1ms - Success: true
+2026-10-07 04:05:00.030 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ad9ce79b-ee46-4639-9481-8bcd0e34d6f7") from ExecutionTaskHandler
+2026-10-07 04:05:00.042 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ad9ce79b-ee46-4639-9481-8bcd0e34d6f7") in 12ms - Success: true
+2026-10-07 04:38:27.191 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("02cf5391-19fa-4fa5-b26a-21ad92f7d838") from ExecutionTaskHandler
+2026-10-07 04:38:27.191 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("c571a84f-5cde-4361-9e42-623a1c5d88a6") from ExecutionTaskHandler
+2026-10-07 04:38:27.193 +01:00 [INF] TickerQ Job completed: SmsOutbox ("c571a84f-5cde-4361-9e42-623a1c5d88a6") in 0ms - Success: true
+2026-10-07 04:38:27.195 +01:00 [INF] TickerQ Job completed: EmailOutbox ("02cf5391-19fa-4fa5-b26a-21ad92f7d838") in 3ms - Success: true
+2026-10-07 05:17:23.231 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("02cf5391-19fa-4fa5-b26a-21ad92f7d838") from ExecutionTaskHandler
+2026-10-07 05:17:23.231 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("c571a84f-5cde-4361-9e42-623a1c5d88a6") from ExecutionTaskHandler
+2026-10-07 05:17:23.232 +01:00 [INF] TickerQ Job completed: SmsOutbox ("c571a84f-5cde-4361-9e42-623a1c5d88a6") in 0ms - Success: true
+2026-10-07 05:17:23.286 +01:00 [INF] TickerQ Job completed: EmailOutbox ("02cf5391-19fa-4fa5-b26a-21ad92f7d838") in 54ms - Success: true
+2026-10-07 05:18:27.538 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("a8dfcf41-2eef-40d4-94ef-09bd8f2a3f2e") from ExecutionTaskHandler
+2026-10-07 05:18:27.538 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("8a92104c-0cff-4793-8a65-c838b34aeed9") from ExecutionTaskHandler
+2026-10-07 05:18:27.539 +01:00 [INF] TickerQ Job completed: SmsOutbox ("a8dfcf41-2eef-40d4-94ef-09bd8f2a3f2e") in 0ms - Success: true
+2026-10-07 05:18:27.541 +01:00 [INF] TickerQ Job completed: EmailOutbox ("8a92104c-0cff-4793-8a65-c838b34aeed9") in 1ms - Success: true
+2026-10-07 05:18:41.889 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("8a92104c-0cff-4793-8a65-c838b34aeed9") from ExecutionTaskHandler
+2026-10-07 05:18:41.889 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("a8dfcf41-2eef-40d4-94ef-09bd8f2a3f2e") from ExecutionTaskHandler
+2026-10-07 05:18:41.891 +01:00 [INF] TickerQ Job completed: SmsOutbox ("a8dfcf41-2eef-40d4-94ef-09bd8f2a3f2e") in 0ms - Success: true
+2026-10-07 05:18:41.896 +01:00 [INF] TickerQ Job completed: EmailOutbox ("8a92104c-0cff-4793-8a65-c838b34aeed9") in 5ms - Success: true
+2026-10-07 05:19:00.019 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9db062d7-a2d7-4579-a94c-347da8257ec8") from ExecutionTaskHandler
+2026-10-07 05:19:00.026 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9db062d7-a2d7-4579-a94c-347da8257ec8") in 3ms - Success: true
+2026-10-07 05:21:58.146 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c5239053-59e6-4e53-877a-8ef7ca33a50a") from ExecutionTaskHandler
+2026-10-07 05:21:58.147 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("6bf86ee5-ed38-4104-8208-de9e5bd6bb0c") from ExecutionTaskHandler
+2026-10-07 05:21:58.148 +01:00 [INF] TickerQ Job completed: SmsOutbox ("6bf86ee5-ed38-4104-8208-de9e5bd6bb0c") in 0ms - Success: true
+2026-10-07 05:21:58.166 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c5239053-59e6-4e53-877a-8ef7ca33a50a") in 19ms - Success: true
+2026-10-07 05:40:07.356 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c5239053-59e6-4e53-877a-8ef7ca33a50a") from ExecutionTaskHandler
+2026-10-07 05:40:07.364 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c5239053-59e6-4e53-877a-8ef7ca33a50a") in 6ms - Success: true
+2026-10-07 05:40:07.365 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("6bf86ee5-ed38-4104-8208-de9e5bd6bb0c") from ExecutionTaskHandler
+2026-10-07 05:40:07.365 +01:00 [INF] TickerQ Job completed: SmsOutbox ("6bf86ee5-ed38-4104-8208-de9e5bd6bb0c") in 0ms - Success: true
+2026-10-07 06:19:02.430 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6a72692f-7668-4b47-942d-0399093d0e8c") from ExecutionTaskHandler
+2026-10-07 06:19:02.439 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6a72692f-7668-4b47-942d-0399093d0e8c") in 7ms - Success: true
+2026-10-07 06:35:43.773 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6a72692f-7668-4b47-942d-0399093d0e8c") from ExecutionTaskHandler
+2026-10-07 06:35:43.795 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6a72692f-7668-4b47-942d-0399093d0e8c") in 20ms - Success: true
+2026-10-07 06:36:45.971 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d82a0e00-9d27-402b-8249-9175afd39bae") from ExecutionTaskHandler
+2026-10-07 06:36:45.972 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("c673d5f8-40e3-4693-9b10-164d76344ee6") from ExecutionTaskHandler
+2026-10-07 06:36:45.974 +01:00 [INF] TickerQ Job completed: SmsOutbox ("c673d5f8-40e3-4693-9b10-164d76344ee6") in 1ms - Success: true
+2026-10-07 06:36:45.978 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d82a0e00-9d27-402b-8249-9175afd39bae") in 6ms - Success: true
+2026-10-07 06:37:00.014 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("92ff6306-2ce4-4e81-8dc9-51027eef4d78") from ExecutionTaskHandler
+2026-10-07 06:37:00.016 +01:00 [INF] TickerQ Job completed: EmailOutbox ("92ff6306-2ce4-4e81-8dc9-51027eef4d78") in 1ms - Success: true
+2026-10-07 06:39:02.044 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c4c7c599-88b1-4908-a071-9da61e0542ee") from ExecutionTaskHandler
+2026-10-07 06:39:02.044 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("60532554-7ee7-4627-a0b4-dfcac2fb21e3") from ExecutionTaskHandler
+2026-10-07 06:39:02.045 +01:00 [INF] TickerQ Job completed: SmsOutbox ("60532554-7ee7-4627-a0b4-dfcac2fb21e3") in 0ms - Success: true
+2026-10-07 06:39:02.047 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c4c7c599-88b1-4908-a071-9da61e0542ee") in 2ms - Success: true
+2026-10-07 06:40:06.228 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c4c7c599-88b1-4908-a071-9da61e0542ee") from ExecutionTaskHandler
+2026-10-07 06:40:06.229 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("60532554-7ee7-4627-a0b4-dfcac2fb21e3") from ExecutionTaskHandler
+2026-10-07 06:40:06.230 +01:00 [INF] TickerQ Job completed: SmsOutbox ("60532554-7ee7-4627-a0b4-dfcac2fb21e3") in 0ms - Success: true
+2026-10-07 06:40:06.250 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c4c7c599-88b1-4908-a071-9da61e0542ee") in 20ms - Success: true
+2026-10-07 06:41:34.330 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ebd38d89-1111-4b17-bb34-62a1e34f4bc8") from ExecutionTaskHandler
+2026-10-07 06:41:34.333 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ebd38d89-1111-4b17-bb34-62a1e34f4bc8") in 2ms - Success: true
+2026-10-07 06:41:53.297 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ebd38d89-1111-4b17-bb34-62a1e34f4bc8") from ExecutionTaskHandler
+2026-10-07 06:41:53.304 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ebd38d89-1111-4b17-bb34-62a1e34f4bc8") in 5ms - Success: true
+2026-10-07 06:42:00.023 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4b6511bc-f420-4271-9aae-f863e66e72d0") from ExecutionTaskHandler
+2026-10-07 06:42:00.023 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("5933817b-4ac3-4777-8252-9db7fa2be21b") from ExecutionTaskHandler
+2026-10-07 06:42:00.024 +01:00 [INF] TickerQ Job completed: SmsOutbox ("5933817b-4ac3-4777-8252-9db7fa2be21b") in 0ms - Success: true
+2026-10-07 06:42:00.025 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4b6511bc-f420-4271-9aae-f863e66e72d0") in 1ms - Success: true
+2026-10-07 07:02:19.188 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f78055bf-0f1c-48ee-829b-eb99aaa97731") from ExecutionTaskHandler
+2026-10-07 07:02:19.192 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f78055bf-0f1c-48ee-829b-eb99aaa97731") in 3ms - Success: true
+2026-10-07 07:09:24.785 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f78055bf-0f1c-48ee-829b-eb99aaa97731") from ExecutionTaskHandler
+2026-10-07 07:09:24.795 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f78055bf-0f1c-48ee-829b-eb99aaa97731") in 8ms - Success: true
+2026-10-07 07:43:29.937 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("7681e474-2595-435a-ae82-9de67189acaf") from ExecutionTaskHandler
+2026-10-07 07:43:29.937 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7d0721f2-a004-4e04-92fc-133bc0eb5fe4") from ExecutionTaskHandler
+2026-10-07 07:43:29.940 +01:00 [INF] TickerQ Job completed: SmsOutbox ("7681e474-2595-435a-ae82-9de67189acaf") in 1ms - Success: true
+2026-10-07 07:43:29.952 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7d0721f2-a004-4e04-92fc-133bc0eb5fe4") in 13ms - Success: true
+2026-10-07 07:43:30.751 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7d0721f2-a004-4e04-92fc-133bc0eb5fe4") from ExecutionTaskHandler
+2026-10-07 07:43:30.751 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("7681e474-2595-435a-ae82-9de67189acaf") from ExecutionTaskHandler
+2026-10-07 07:43:30.751 +01:00 [INF] TickerQ Job completed: SmsOutbox ("7681e474-2595-435a-ae82-9de67189acaf") in 0ms - Success: true
+2026-10-07 07:43:30.758 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7d0721f2-a004-4e04-92fc-133bc0eb5fe4") in 6ms - Success: true
+2026-10-07 07:44:51.818 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("c9450d75-644c-46da-8f20-3ba6fd035733") from ExecutionTaskHandler
+2026-10-07 07:44:51.818 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("69a408de-87fe-420c-89bf-6aca4d5856e5") from ExecutionTaskHandler
+2026-10-07 07:44:51.820 +01:00 [INF] TickerQ Job completed: SmsOutbox ("c9450d75-644c-46da-8f20-3ba6fd035733") in 0ms - Success: true
+2026-10-07 07:44:51.822 +01:00 [INF] TickerQ Job completed: EmailOutbox ("69a408de-87fe-420c-89bf-6aca4d5856e5") in 2ms - Success: true
+2026-10-07 07:44:51.830 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("69a408de-87fe-420c-89bf-6aca4d5856e5") from ExecutionTaskHandler
+2026-10-07 07:44:51.831 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("c9450d75-644c-46da-8f20-3ba6fd035733") from ExecutionTaskHandler
+2026-10-07 07:44:51.831 +01:00 [INF] TickerQ Job completed: SmsOutbox ("c9450d75-644c-46da-8f20-3ba6fd035733") in 0ms - Success: true
+2026-10-07 07:44:51.832 +01:00 [INF] TickerQ Job completed: EmailOutbox ("69a408de-87fe-420c-89bf-6aca4d5856e5") in 1ms - Success: true
+2026-10-07 07:45:00.031 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bd8aebe2-7948-42ef-84af-9d378e8329d8") from ExecutionTaskHandler
+2026-10-07 07:45:00.035 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bd8aebe2-7948-42ef-84af-9d378e8329d8") in 4ms - Success: true
+2026-10-07 07:46:08.771 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bb7b6770-716b-4e2f-8a5c-9a68f694ada8") from ExecutionTaskHandler
+2026-10-07 07:46:08.771 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("fc9e1514-bc02-4fea-86bd-b293d5c11e3c") from ExecutionTaskHandler
+2026-10-07 07:46:08.772 +01:00 [INF] TickerQ Job completed: SmsOutbox ("fc9e1514-bc02-4fea-86bd-b293d5c11e3c") in 0ms - Success: true
+2026-10-07 07:46:08.775 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bb7b6770-716b-4e2f-8a5c-9a68f694ada8") in 3ms - Success: true
+2026-10-07 07:48:25.700 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bb7b6770-716b-4e2f-8a5c-9a68f694ada8") from ExecutionTaskHandler
+2026-10-07 07:48:25.700 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("fc9e1514-bc02-4fea-86bd-b293d5c11e3c") from ExecutionTaskHandler
+2026-10-07 07:48:25.703 +01:00 [INF] TickerQ Job completed: SmsOutbox ("fc9e1514-bc02-4fea-86bd-b293d5c11e3c") in 1ms - Success: true
+2026-10-07 07:48:25.708 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bb7b6770-716b-4e2f-8a5c-9a68f694ada8") in 5ms - Success: true
+2026-10-07 07:49:31.086 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("2cee98c8-6bcf-4b32-88c1-17541585d7c4") from ExecutionTaskHandler
+2026-10-07 07:49:31.089 +01:00 [INF] TickerQ Job completed: EmailOutbox ("2cee98c8-6bcf-4b32-88c1-17541585d7c4") in 2ms - Success: true
+2026-10-07 07:49:43.507 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("2cee98c8-6bcf-4b32-88c1-17541585d7c4") from ExecutionTaskHandler
+2026-10-07 07:49:43.520 +01:00 [INF] TickerQ Job completed: EmailOutbox ("2cee98c8-6bcf-4b32-88c1-17541585d7c4") in 11ms - Success: true
+2026-10-07 08:03:08.251 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("111dd735-4873-4864-94b6-221522effe21") from ExecutionTaskHandler
+2026-10-07 08:03:08.251 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("9cf7dccf-177a-458c-bd78-0bebf639ef16") from ExecutionTaskHandler
+2026-10-07 08:03:08.252 +01:00 [INF] TickerQ Job completed: SmsOutbox ("9cf7dccf-177a-458c-bd78-0bebf639ef16") in 0ms - Success: true
+2026-10-07 08:03:08.254 +01:00 [INF] TickerQ Job completed: EmailOutbox ("111dd735-4873-4864-94b6-221522effe21") in 2ms - Success: true
+2026-10-07 08:51:54.967 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("b19d8b37-b4c7-40e5-aa54-7a6f2b13cbab") from ExecutionTaskHandler
+2026-10-07 08:51:54.967 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("35d58aef-9e06-48ed-9b50-aa9dbfbdec0a") from ExecutionTaskHandler
+2026-10-07 08:51:54.968 +01:00 [INF] TickerQ Job completed: SmsOutbox ("b19d8b37-b4c7-40e5-aa54-7a6f2b13cbab") in 0ms - Success: true
+2026-10-07 08:51:54.971 +01:00 [INF] TickerQ Job completed: EmailOutbox ("35d58aef-9e06-48ed-9b50-aa9dbfbdec0a") in 3ms - Success: true
+2026-10-07 08:54:45.935 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("35d58aef-9e06-48ed-9b50-aa9dbfbdec0a") from ExecutionTaskHandler
+2026-10-07 08:54:45.941 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("b19d8b37-b4c7-40e5-aa54-7a6f2b13cbab") from ExecutionTaskHandler
+2026-10-07 08:54:45.942 +01:00 [INF] TickerQ Job completed: SmsOutbox ("b19d8b37-b4c7-40e5-aa54-7a6f2b13cbab") in 0ms - Success: true
+2026-10-07 08:54:45.942 +01:00 [INF] TickerQ Job completed: EmailOutbox ("35d58aef-9e06-48ed-9b50-aa9dbfbdec0a") in 5ms - Success: true
+2026-10-07 08:55:44.140 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("79f859fe-e0ed-4618-83e3-422c968ab514") from ExecutionTaskHandler
+2026-10-07 08:55:44.144 +01:00 [INF] TickerQ Job completed: EmailOutbox ("79f859fe-e0ed-4618-83e3-422c968ab514") in 3ms - Success: true
+2026-10-07 08:56:47.162 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9e6c1013-732e-415e-93c3-1fc77f9797be") from ExecutionTaskHandler
+2026-10-07 08:56:47.162 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("e343b42c-bafc-45cc-a104-82366edadd3d") from ExecutionTaskHandler
+2026-10-07 08:56:47.163 +01:00 [INF] TickerQ Job completed: SmsOutbox ("e343b42c-bafc-45cc-a104-82366edadd3d") in 0ms - Success: true
+2026-10-07 08:56:47.165 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9e6c1013-732e-415e-93c3-1fc77f9797be") in 2ms - Success: true
+2026-10-07 08:59:39.320 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("527baa44-2a29-434d-ada3-8aec7b20f077") from ExecutionTaskHandler
+2026-10-07 08:59:39.325 +01:00 [INF] TickerQ Job completed: EmailOutbox ("527baa44-2a29-434d-ada3-8aec7b20f077") in 4ms - Success: true
+2026-10-07 09:00:00.022 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - PaymentTimeout ("11f1d14e-67ec-4d99-9f4c-8a5c52961104") from ExecutionTaskHandler
+2026-10-07 09:00:00.022 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("2326a65d-0506-4894-a4cb-546064ffc043") from ExecutionTaskHandler
+2026-10-07 09:00:00.023 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("aebf9c1f-486f-4e42-bb40-11441a2ef21a") from ExecutionTaskHandler
+2026-10-07 09:00:00.025 +01:00 [INF] TickerQ Job completed: SmsOutbox ("2326a65d-0506-4894-a4cb-546064ffc043") in 1ms - Success: true
+2026-10-07 09:00:00.029 +01:00 [INF] TickerQ Job completed: EmailOutbox ("aebf9c1f-486f-4e42-bb40-11441a2ef21a") in 5ms - Success: true
+2026-10-07 09:00:00.062 +01:00 [INF] PaymentTimeout job ran — no expired transactions.
+2026-10-07 09:00:00.062 +01:00 [INF] TickerQ Job completed: PaymentTimeout ("11f1d14e-67ec-4d99-9f4c-8a5c52961104") in 38ms - Success: true
+2026-10-07 09:04:44.600 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7febcf0b-c69b-4fa5-93ff-a3906d551585") from ExecutionTaskHandler
+2026-10-07 09:04:44.605 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7febcf0b-c69b-4fa5-93ff-a3906d551585") in 4ms - Success: true
+2026-10-07 09:05:06.825 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7febcf0b-c69b-4fa5-93ff-a3906d551585") from ExecutionTaskHandler
+2026-10-07 09:05:06.846 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7febcf0b-c69b-4fa5-93ff-a3906d551585") in 18ms - Success: true
+2026-10-07 09:06:00.092 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("046e3cf5-60c4-41c2-a85d-2bd209a953e2") from ExecutionTaskHandler
+2026-10-07 09:06:00.092 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4eee7805-61b2-46e5-9249-cb448c7211a0") from ExecutionTaskHandler
+2026-10-07 09:06:00.096 +01:00 [INF] TickerQ Job completed: SmsOutbox ("046e3cf5-60c4-41c2-a85d-2bd209a953e2") in 3ms - Success: true
+2026-10-07 09:06:00.111 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4eee7805-61b2-46e5-9249-cb448c7211a0") in 17ms - Success: true
+2026-10-07 09:07:00.019 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("57d7d9f4-7372-43fc-aae3-111714360854") from ExecutionTaskHandler
+2026-10-07 09:07:00.027 +01:00 [INF] TickerQ Job completed: EmailOutbox ("57d7d9f4-7372-43fc-aae3-111714360854") in 7ms - Success: true
+2026-10-07 09:08:00.022 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("99675816-4588-422e-8fe6-9687be86184c") from ExecutionTaskHandler
+2026-10-07 09:08:00.022 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("4cbe8a18-273d-4cb4-a75a-5ba78cc31f09") from ExecutionTaskHandler
+2026-10-07 09:08:00.027 +01:00 [INF] TickerQ Job completed: SmsOutbox ("4cbe8a18-273d-4cb4-a75a-5ba78cc31f09") in 2ms - Success: true
+2026-10-07 09:08:00.040 +01:00 [INF] TickerQ Job completed: EmailOutbox ("99675816-4588-422e-8fe6-9687be86184c") in 15ms - Success: true
+2026-10-07 09:09:00.024 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("602fd6d0-1da4-4fa5-8a32-054dbc3103d8") from ExecutionTaskHandler
+2026-10-07 09:09:00.035 +01:00 [INF] TickerQ Job completed: EmailOutbox ("602fd6d0-1da4-4fa5-8a32-054dbc3103d8") in 8ms - Success: true
+2026-10-07 09:10:00.028 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("179a2ad2-94f0-44e7-a97b-70292506e9a1") from ExecutionTaskHandler
+2026-10-07 09:10:00.028 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("a70d82bd-3858-41de-9a99-d91848314926") from ExecutionTaskHandler
+2026-10-07 09:10:00.033 +01:00 [INF] TickerQ Job completed: SmsOutbox ("179a2ad2-94f0-44e7-a97b-70292506e9a1") in 1ms - Success: true
+2026-10-07 09:10:00.036 +01:00 [INF] TickerQ Job completed: EmailOutbox ("a70d82bd-3858-41de-9a99-d91848314926") in 5ms - Success: true
+2026-10-07 09:11:00.025 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f74e679a-1df4-4d31-b5aa-3f40dec5e0fb") from ExecutionTaskHandler
+2026-10-07 09:11:00.032 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f74e679a-1df4-4d31-b5aa-3f40dec5e0fb") in 5ms - Success: true
+2026-10-07 09:12:00.027 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4398dade-1945-49b5-a977-85f67a3ae5da") from ExecutionTaskHandler
+2026-10-07 09:12:00.027 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("156c28c6-0827-4d4b-a982-5348860dcb8f") from ExecutionTaskHandler
+2026-10-07 09:12:00.031 +01:00 [INF] TickerQ Job completed: SmsOutbox ("156c28c6-0827-4d4b-a982-5348860dcb8f") in 2ms - Success: true
+2026-10-07 09:12:00.041 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4398dade-1945-49b5-a977-85f67a3ae5da") in 12ms - Success: true
+2026-10-07 09:13:00.038 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ebae01f3-cfc5-47d9-9781-c2b01da6a6ca") from ExecutionTaskHandler
+2026-10-07 09:13:00.061 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ebae01f3-cfc5-47d9-9781-c2b01da6a6ca") in 21ms - Success: true
+2026-10-07 09:14:00.043 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("af08dc2b-c82b-4d79-be25-8d498f55ed00") from ExecutionTaskHandler
+2026-10-07 09:14:00.043 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("eb41bb26-6803-4324-823e-bf956d3915bd") from ExecutionTaskHandler
+2026-10-07 09:14:00.048 +01:00 [INF] TickerQ Job completed: SmsOutbox ("af08dc2b-c82b-4d79-be25-8d498f55ed00") in 3ms - Success: true
+2026-10-07 09:14:00.059 +01:00 [INF] TickerQ Job completed: EmailOutbox ("eb41bb26-6803-4324-823e-bf956d3915bd") in 14ms - Success: true
+2026-10-07 09:15:00.021 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("b690bbee-952c-4347-be15-fc10cf6863af") from ExecutionTaskHandler
+2026-10-07 09:15:00.026 +01:00 [INF] TickerQ Job completed: EmailOutbox ("b690bbee-952c-4347-be15-fc10cf6863af") in 4ms - Success: true
+2026-10-07 09:16:00.024 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ae8662e7-fcdd-4ab7-8b64-4b8d14daed2d") from ExecutionTaskHandler
+2026-10-07 09:16:00.024 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("a33b613b-1914-422c-b906-9981a3097f49") from ExecutionTaskHandler
+2026-10-07 09:16:00.027 +01:00 [INF] TickerQ Job completed: SmsOutbox ("a33b613b-1914-422c-b906-9981a3097f49") in 2ms - Success: true
+2026-10-07 09:16:00.034 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ae8662e7-fcdd-4ab7-8b64-4b8d14daed2d") in 9ms - Success: true
+2026-10-07 09:17:00.016 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("408d14c9-b8a2-47f0-9d43-6c1bad72197c") from ExecutionTaskHandler
+2026-10-07 09:17:00.022 +01:00 [INF] TickerQ Job completed: EmailOutbox ("408d14c9-b8a2-47f0-9d43-6c1bad72197c") in 3ms - Success: true
+2026-10-07 09:18:00.011 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("e080ef7d-533e-4acd-9d27-93b663ecfb0e") from ExecutionTaskHandler
+2026-10-07 09:18:00.013 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("f050dc45-3f20-4a61-9cb2-5977f678d1a0") from ExecutionTaskHandler
+2026-10-07 09:18:00.014 +01:00 [INF] TickerQ Job completed: SmsOutbox ("f050dc45-3f20-4a61-9cb2-5977f678d1a0") in 1ms - Success: true
+2026-10-07 09:18:00.032 +01:00 [INF] TickerQ Job completed: EmailOutbox ("e080ef7d-533e-4acd-9d27-93b663ecfb0e") in 19ms - Success: true
+2026-10-07 09:19:00.023 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("3fe88c65-ef5f-4370-aebb-aa878dccd0cf") from ExecutionTaskHandler
+2026-10-07 09:19:00.033 +01:00 [INF] TickerQ Job completed: EmailOutbox ("3fe88c65-ef5f-4370-aebb-aa878dccd0cf") in 9ms - Success: true
+2026-10-07 09:20:00.016 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("30572640-ce11-414f-851a-88d279caf00c") from ExecutionTaskHandler
+2026-10-07 09:20:00.016 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("14b60530-4707-4811-a509-413935851324") from ExecutionTaskHandler
+2026-10-07 09:20:00.017 +01:00 [INF] TickerQ Job completed: SmsOutbox ("14b60530-4707-4811-a509-413935851324") in 0ms - Success: true
+2026-10-07 09:20:00.021 +01:00 [INF] TickerQ Job completed: EmailOutbox ("30572640-ce11-414f-851a-88d279caf00c") in 4ms - Success: true
+2026-10-07 09:21:00.222 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("1c0bad63-9b8d-45d7-aaf3-010b338785e9") from ExecutionTaskHandler
+2026-10-07 09:21:00.238 +01:00 [INF] TickerQ Job completed: EmailOutbox ("1c0bad63-9b8d-45d7-aaf3-010b338785e9") in 15ms - Success: true
+2026-10-07 09:22:00.125 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("f23a4c9e-debd-4f82-ae46-cb1eefb9ea89") from ExecutionTaskHandler
+2026-10-07 09:22:00.125 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("70e1ab8e-4f10-404f-9b08-0abdfe3a2269") from ExecutionTaskHandler
+2026-10-07 09:22:00.176 +01:00 [INF] TickerQ Job completed: SmsOutbox ("f23a4c9e-debd-4f82-ae46-cb1eefb9ea89") in 22ms - Success: true
+2026-10-07 09:22:00.188 +01:00 [INF] TickerQ Job completed: EmailOutbox ("70e1ab8e-4f10-404f-9b08-0abdfe3a2269") in 35ms - Success: true
+2026-10-07 09:23:00.106 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bda6c05f-c840-47f3-9250-dde398a4243a") from ExecutionTaskHandler
+2026-10-07 09:23:00.132 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bda6c05f-c840-47f3-9250-dde398a4243a") in 22ms - Success: true
+2026-10-07 09:24:00.040 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("122f1584-7071-421b-85f9-afd2469d143c") from ExecutionTaskHandler
+2026-10-07 09:24:00.042 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("729d2986-e50c-45c7-a5ce-b65e855bd95a") from ExecutionTaskHandler
+2026-10-07 09:24:00.044 +01:00 [INF] TickerQ Job completed: SmsOutbox ("729d2986-e50c-45c7-a5ce-b65e855bd95a") in 1ms - Success: true
+2026-10-07 09:24:00.050 +01:00 [INF] TickerQ Job completed: EmailOutbox ("122f1584-7071-421b-85f9-afd2469d143c") in 8ms - Success: true
+2026-10-07 09:25:00.138 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("5f810df0-7daa-4293-aef1-ed48816400ae") from ExecutionTaskHandler
+2026-10-07 09:25:00.188 +01:00 [INF] TickerQ Job completed: EmailOutbox ("5f810df0-7daa-4293-aef1-ed48816400ae") in 46ms - Success: true
+2026-10-07 09:26:00.224 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("adbc27ca-8dbc-4fa2-b895-86917895020b") from ExecutionTaskHandler
+2026-10-07 09:26:00.224 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("f38f06e1-e6e7-4fd5-b814-acf574785aee") from ExecutionTaskHandler
+2026-10-07 09:26:00.227 +01:00 [INF] TickerQ Job completed: SmsOutbox ("f38f06e1-e6e7-4fd5-b814-acf574785aee") in 1ms - Success: true
+2026-10-07 09:26:00.231 +01:00 [INF] TickerQ Job completed: EmailOutbox ("adbc27ca-8dbc-4fa2-b895-86917895020b") in 5ms - Success: true
+2026-10-07 09:27:00.065 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("20e17a1a-a8e3-4b8f-adba-e049eb2c98b0") from ExecutionTaskHandler
+2026-10-07 09:27:00.075 +01:00 [INF] TickerQ Job completed: EmailOutbox ("20e17a1a-a8e3-4b8f-adba-e049eb2c98b0") in 8ms - Success: true
+2026-10-07 09:28:00.093 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ec74994e-f7af-4d75-961d-c329b3a478cb") from ExecutionTaskHandler
+2026-10-07 09:28:00.094 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("62884494-8ec8-40b8-a78d-e61f24d58ecb") from ExecutionTaskHandler
+2026-10-07 09:28:00.097 +01:00 [INF] TickerQ Job completed: SmsOutbox ("62884494-8ec8-40b8-a78d-e61f24d58ecb") in 1ms - Success: true
+2026-10-07 09:28:00.166 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ec74994e-f7af-4d75-961d-c329b3a478cb") in 70ms - Success: true
+2026-10-07 09:29:00.080 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9260dbe0-b118-4fa6-bbc5-bb0fceb39f7d") from ExecutionTaskHandler
+2026-10-07 09:29:00.085 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9260dbe0-b118-4fa6-bbc5-bb0fceb39f7d") in 4ms - Success: true
+2026-10-07 09:30:00.017 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("4e6d5f1c-59f4-4a05-8550-e39de3c2d929") from ExecutionTaskHandler
+2026-10-07 09:30:00.018 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c361c437-d5ea-4078-9b6e-4a56974449de") from ExecutionTaskHandler
+2026-10-07 09:30:00.021 +01:00 [INF] TickerQ Job completed: SmsOutbox ("4e6d5f1c-59f4-4a05-8550-e39de3c2d929") in 2ms - Success: true
+2026-10-07 09:30:00.031 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c361c437-d5ea-4078-9b6e-4a56974449de") in 12ms - Success: true
+2026-10-07 09:31:00.013 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c9036264-9de7-47b8-9cf9-1af8b2fa5068") from ExecutionTaskHandler
+2026-10-07 09:31:00.023 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c9036264-9de7-47b8-9cf9-1af8b2fa5068") in 7ms - Success: true
+2026-10-07 09:32:00.026 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("0b200fc7-8446-40f9-8a2d-562e7ff7c509") from ExecutionTaskHandler
+2026-10-07 09:32:00.026 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("b09d4a1e-2460-462f-b7e5-d6df314e82cd") from ExecutionTaskHandler
+2026-10-07 09:32:00.031 +01:00 [INF] TickerQ Job completed: SmsOutbox ("0b200fc7-8446-40f9-8a2d-562e7ff7c509") in 3ms - Success: true
+2026-10-07 09:32:00.034 +01:00 [INF] TickerQ Job completed: EmailOutbox ("b09d4a1e-2460-462f-b7e5-d6df314e82cd") in 6ms - Success: true
+2026-10-07 09:33:00.059 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("1cba7f7e-7e54-4d57-b2e3-b313a2bcade5") from ExecutionTaskHandler
+2026-10-07 09:33:00.104 +01:00 [INF] TickerQ Job completed: EmailOutbox ("1cba7f7e-7e54-4d57-b2e3-b313a2bcade5") in 40ms - Success: true
+2026-10-07 09:34:00.073 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("23c965e1-02e7-4e2f-8eac-5251e7ac1046") from ExecutionTaskHandler
+2026-10-07 09:34:00.075 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("9750d005-6649-4965-91c7-bdf23d7dc918") from ExecutionTaskHandler
+2026-10-07 09:34:00.079 +01:00 [INF] TickerQ Job completed: SmsOutbox ("9750d005-6649-4965-91c7-bdf23d7dc918") in 3ms - Success: true
+2026-10-07 09:34:00.171 +01:00 [INF] TickerQ Job completed: EmailOutbox ("23c965e1-02e7-4e2f-8eac-5251e7ac1046") in 96ms - Success: true
+2026-10-07 09:35:00.089 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("65b36051-8007-4c06-8609-86e8de31c813") from ExecutionTaskHandler
+2026-10-07 09:35:00.103 +01:00 [INF] TickerQ Job completed: EmailOutbox ("65b36051-8007-4c06-8609-86e8de31c813") in 11ms - Success: true
+2026-10-07 09:36:00.530 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7f05d36c-6ad0-4351-b243-e52749ae9587") from ExecutionTaskHandler
+2026-10-07 09:36:00.530 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("1360844a-5012-45f3-9602-355032fb26eb") from ExecutionTaskHandler
+2026-10-07 09:36:00.533 +01:00 [INF] TickerQ Job completed: SmsOutbox ("1360844a-5012-45f3-9602-355032fb26eb") in 1ms - Success: true
+2026-10-07 09:36:00.536 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7f05d36c-6ad0-4351-b243-e52749ae9587") in 4ms - Success: true
+2026-10-07 09:37:00.012 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("31042b98-5b2a-4eb3-b7fd-2d2b1b844691") from ExecutionTaskHandler
+2026-10-07 09:37:00.021 +01:00 [INF] TickerQ Job completed: EmailOutbox ("31042b98-5b2a-4eb3-b7fd-2d2b1b844691") in 7ms - Success: true
+2026-10-07 09:38:00.017 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("669bb5d9-73f7-448f-89ee-390e7409d349") from ExecutionTaskHandler
+2026-10-07 09:38:00.017 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("4faa4b0f-be78-43ff-a78f-d3e4ff48729a") from ExecutionTaskHandler
+2026-10-07 09:38:00.020 +01:00 [INF] TickerQ Job completed: SmsOutbox ("4faa4b0f-be78-43ff-a78f-d3e4ff48729a") in 1ms - Success: true
+2026-10-07 09:38:00.037 +01:00 [INF] TickerQ Job completed: EmailOutbox ("669bb5d9-73f7-448f-89ee-390e7409d349") in 18ms - Success: true
+2026-10-07 09:39:00.021 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6616ab43-d3c6-4141-b71d-f7b73ce605c4") from ExecutionTaskHandler
+2026-10-07 09:39:00.030 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6616ab43-d3c6-4141-b71d-f7b73ce605c4") in 7ms - Success: true
+2026-10-07 09:40:00.013 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("fa0b3793-dd7c-4d99-bffa-4c77562714b8") from ExecutionTaskHandler
+2026-10-07 09:40:00.013 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("ea9f0611-6046-4aa3-97a2-9840c4391731") from ExecutionTaskHandler
+2026-10-07 09:40:00.016 +01:00 [INF] TickerQ Job completed: SmsOutbox ("ea9f0611-6046-4aa3-97a2-9840c4391731") in 1ms - Success: true
+2026-10-07 09:40:00.028 +01:00 [INF] TickerQ Job completed: EmailOutbox ("fa0b3793-dd7c-4d99-bffa-4c77562714b8") in 13ms - Success: true
+2026-10-07 09:41:00.017 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("a48b8a0a-0214-431d-aaad-b210321c012d") from ExecutionTaskHandler
+2026-10-07 09:41:00.020 +01:00 [INF] TickerQ Job completed: EmailOutbox ("a48b8a0a-0214-431d-aaad-b210321c012d") in 1ms - Success: true
+2026-10-07 09:42:00.013 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("1933d925-8058-43ab-840a-d04ebc4e6c64") from ExecutionTaskHandler
+2026-10-07 09:42:00.014 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("16d68d93-3a34-4753-b6fc-ef28c288fc09") from ExecutionTaskHandler
+2026-10-07 09:42:00.019 +01:00 [INF] TickerQ Job completed: SmsOutbox ("16d68d93-3a34-4753-b6fc-ef28c288fc09") in 3ms - Success: true
+2026-10-07 09:42:00.023 +01:00 [INF] TickerQ Job completed: EmailOutbox ("1933d925-8058-43ab-840a-d04ebc4e6c64") in 5ms - Success: true
+2026-10-07 09:43:00.018 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c3cbd4ff-d795-4005-96e7-30ee8eed8be8") from ExecutionTaskHandler
+2026-10-07 09:43:00.026 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c3cbd4ff-d795-4005-96e7-30ee8eed8be8") in 5ms - Success: true
+2026-10-07 09:44:00.018 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("9463fc40-b244-4ecf-8499-e1cde05de1a4") from ExecutionTaskHandler
+2026-10-07 09:44:00.018 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4510f484-223a-441a-a90a-903c7957b940") from ExecutionTaskHandler
+2026-10-07 09:44:00.026 +01:00 [INF] TickerQ Job completed: SmsOutbox ("9463fc40-b244-4ecf-8499-e1cde05de1a4") in 0ms - Success: true
+2026-10-07 09:44:00.031 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4510f484-223a-441a-a90a-903c7957b940") in 6ms - Success: true
+2026-10-07 09:45:00.020 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("522f1ffe-6e80-4e00-af4a-72ea457ce3bf") from ExecutionTaskHandler
+2026-10-07 09:45:00.028 +01:00 [INF] TickerQ Job completed: EmailOutbox ("522f1ffe-6e80-4e00-af4a-72ea457ce3bf") in 7ms - Success: true
+2026-10-07 09:46:00.012 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("af2ea696-5bb3-432b-939d-e84261028d78") from ExecutionTaskHandler
+2026-10-07 09:46:00.011 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("71c37fb6-0ef9-413e-8fbc-eae0bc9c735f") from ExecutionTaskHandler
+2026-10-07 09:46:00.015 +01:00 [INF] TickerQ Job completed: SmsOutbox ("71c37fb6-0ef9-413e-8fbc-eae0bc9c735f") in 1ms - Success: true
+2026-10-07 09:46:00.022 +01:00 [INF] TickerQ Job completed: EmailOutbox ("af2ea696-5bb3-432b-939d-e84261028d78") in 9ms - Success: true
+2026-10-07 09:47:00.019 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("3b35c75f-c57c-4361-b910-c129b8bfc243") from ExecutionTaskHandler
+2026-10-07 09:47:00.022 +01:00 [INF] TickerQ Job completed: EmailOutbox ("3b35c75f-c57c-4361-b910-c129b8bfc243") in 1ms - Success: true
+2026-10-07 09:48:00.016 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("e68c8e14-063e-44da-907e-302f5a45a7fa") from ExecutionTaskHandler
+2026-10-07 09:48:00.016 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("500d6c5c-6a74-4735-a063-9e47dbc8ed8a") from ExecutionTaskHandler
+2026-10-07 09:48:00.019 +01:00 [INF] TickerQ Job completed: SmsOutbox ("e68c8e14-063e-44da-907e-302f5a45a7fa") in 0ms - Success: true
+2026-10-07 09:48:00.033 +01:00 [INF] TickerQ Job completed: EmailOutbox ("500d6c5c-6a74-4735-a063-9e47dbc8ed8a") in 14ms - Success: true
+2026-10-07 09:49:00.023 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c28afe8b-15ba-4b55-a7e7-955a26569eee") from ExecutionTaskHandler
+2026-10-07 09:49:00.030 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c28afe8b-15ba-4b55-a7e7-955a26569eee") in 5ms - Success: true
+2026-10-07 09:50:00.018 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("1a6faf61-34ed-4971-b2f8-3dbbfb8121fc") from ExecutionTaskHandler
+2026-10-07 09:50:00.018 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7592aa8e-99ab-4a69-acc8-14c5fc1c8135") from ExecutionTaskHandler
+2026-10-07 09:50:00.020 +01:00 [INF] TickerQ Job completed: SmsOutbox ("1a6faf61-34ed-4971-b2f8-3dbbfb8121fc") in 0ms - Success: true
+2026-10-07 09:50:00.028 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7592aa8e-99ab-4a69-acc8-14c5fc1c8135") in 8ms - Success: true
+2026-10-07 09:51:00.366 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("cace2efe-29e1-4f3d-97a1-13476713f7bf") from ExecutionTaskHandler
+2026-10-07 09:51:00.380 +01:00 [INF] TickerQ Job completed: EmailOutbox ("cace2efe-29e1-4f3d-97a1-13476713f7bf") in 11ms - Success: true
+2026-10-07 09:52:00.080 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("f9c4f31a-4302-460c-ae91-03a570a0c419") from ExecutionTaskHandler
+2026-10-07 09:52:00.080 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("227afebd-4dab-4e18-8889-a54cea0be403") from ExecutionTaskHandler
+2026-10-07 09:52:00.084 +01:00 [INF] TickerQ Job completed: SmsOutbox ("f9c4f31a-4302-460c-ae91-03a570a0c419") in 0ms - Success: true
+2026-10-07 09:52:00.096 +01:00 [INF] TickerQ Job completed: EmailOutbox ("227afebd-4dab-4e18-8889-a54cea0be403") in 12ms - Success: true
+2026-10-07 09:53:00.095 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bf2acfaa-2798-4ec8-b710-f0355fd4171e") from ExecutionTaskHandler
+2026-10-07 09:53:00.184 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bf2acfaa-2798-4ec8-b710-f0355fd4171e") in 88ms - Success: true
+2026-10-07 09:54:00.142 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("2650d6c4-a55b-4967-ba6b-d556550638f7") from ExecutionTaskHandler
+2026-10-07 09:54:00.145 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("2a96a4b0-e063-4dd9-8448-b445e8573b05") from ExecutionTaskHandler
+2026-10-07 09:54:00.147 +01:00 [INF] TickerQ Job completed: SmsOutbox ("2a96a4b0-e063-4dd9-8448-b445e8573b05") in 0ms - Success: true
+2026-10-07 09:54:00.188 +01:00 [INF] TickerQ Job completed: EmailOutbox ("2650d6c4-a55b-4967-ba6b-d556550638f7") in 41ms - Success: true
+2026-10-07 09:55:00.047 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("2d403de1-4316-4e0f-97d7-7ca8c940eb64") from ExecutionTaskHandler
+2026-10-07 09:55:00.052 +01:00 [INF] TickerQ Job completed: EmailOutbox ("2d403de1-4316-4e0f-97d7-7ca8c940eb64") in 3ms - Success: true
+2026-10-07 09:56:00.024 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("69b8d3f0-ad08-4781-a90a-db6cc9c9cf30") from ExecutionTaskHandler
+2026-10-07 09:56:00.024 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("bbd948f0-5b39-41ca-bf9b-8f1626973652") from ExecutionTaskHandler
+2026-10-07 09:56:00.025 +01:00 [INF] TickerQ Job completed: SmsOutbox ("bbd948f0-5b39-41ca-bf9b-8f1626973652") in 0ms - Success: true
+2026-10-07 09:56:00.029 +01:00 [INF] TickerQ Job completed: EmailOutbox ("69b8d3f0-ad08-4781-a90a-db6cc9c9cf30") in 4ms - Success: true
+2026-10-07 09:57:00.040 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6fff829d-a5be-4b49-9a71-a28b7b2ab975") from ExecutionTaskHandler
+2026-10-07 09:57:00.070 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6fff829d-a5be-4b49-9a71-a28b7b2ab975") in 27ms - Success: true
+2026-10-07 09:58:00.056 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("5ee0b30b-1068-4bfa-a478-eaf00c331108") from ExecutionTaskHandler
+2026-10-07 09:58:00.056 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("3c9983b4-5a05-47d2-b2ad-22901eace49d") from ExecutionTaskHandler
+2026-10-07 09:58:00.058 +01:00 [INF] TickerQ Job completed: SmsOutbox ("3c9983b4-5a05-47d2-b2ad-22901eace49d") in 1ms - Success: true
+2026-10-07 09:58:00.063 +01:00 [INF] TickerQ Job completed: EmailOutbox ("5ee0b30b-1068-4bfa-a478-eaf00c331108") in 5ms - Success: true
+2026-10-07 09:59:00.021 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("a592c825-2fde-4d78-8e8d-aa62d1a1d17e") from ExecutionTaskHandler
+2026-10-07 09:59:00.029 +01:00 [INF] TickerQ Job completed: EmailOutbox ("a592c825-2fde-4d78-8e8d-aa62d1a1d17e") in 6ms - Success: true
+2026-10-07 10:00:00.061 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("419e3817-1a08-4567-8c75-5d4afa3b669a") from ExecutionTaskHandler
+2026-10-07 10:00:00.061 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - PaymentTimeout ("9bc90cd2-ca15-47ed-8515-72e248fc2e3f") from ExecutionTaskHandler
+2026-10-07 10:00:00.061 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("4dda0f9b-1a38-4761-95c7-2699f1ee8659") from ExecutionTaskHandler
+2026-10-07 10:00:00.066 +01:00 [INF] TickerQ Job completed: SmsOutbox ("4dda0f9b-1a38-4761-95c7-2699f1ee8659") in 2ms - Success: true
+2026-10-07 10:00:00.075 +01:00 [INF] TickerQ Job completed: EmailOutbox ("419e3817-1a08-4567-8c75-5d4afa3b669a") in 11ms - Success: true
+2026-10-07 10:00:00.091 +01:00 [INF] PaymentTimeout job ran — no expired transactions.
+2026-10-07 10:00:00.091 +01:00 [INF] TickerQ Job completed: PaymentTimeout ("9bc90cd2-ca15-47ed-8515-72e248fc2e3f") in 27ms - Success: true
+2026-10-07 10:01:00.037 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("b4037e03-9c35-40d6-90e8-bd6a19f7cb2e") from ExecutionTaskHandler
+2026-10-07 10:01:00.044 +01:00 [INF] TickerQ Job completed: EmailOutbox ("b4037e03-9c35-40d6-90e8-bd6a19f7cb2e") in 6ms - Success: true
+2026-10-07 10:02:00.075 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("411299fa-7ab3-47f9-ac5d-616d2d0ca944") from ExecutionTaskHandler
+2026-10-07 10:02:00.075 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("78bfea11-425a-4c03-8c63-b506ff57541c") from ExecutionTaskHandler
+2026-10-07 10:02:00.077 +01:00 [INF] TickerQ Job completed: SmsOutbox ("78bfea11-425a-4c03-8c63-b506ff57541c") in 0ms - Success: true
+2026-10-07 10:02:00.092 +01:00 [INF] TickerQ Job completed: EmailOutbox ("411299fa-7ab3-47f9-ac5d-616d2d0ca944") in 16ms - Success: true
+2026-10-07 10:03:00.018 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7dcf60d1-88e2-43b4-8cfd-ff0ca868fbfe") from ExecutionTaskHandler
+2026-10-07 10:03:00.035 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7dcf60d1-88e2-43b4-8cfd-ff0ca868fbfe") in 13ms - Success: true
+2026-10-07 10:04:00.237 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("aa9e6936-57c8-489a-a6c2-09f6f84b2056") from ExecutionTaskHandler
+2026-10-07 10:04:00.254 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("d6bacd10-9eb8-4048-8514-13d8addb5a49") from ExecutionTaskHandler
+2026-10-07 10:04:00.258 +01:00 [INF] TickerQ Job completed: SmsOutbox ("d6bacd10-9eb8-4048-8514-13d8addb5a49") in 3ms - Success: true
+2026-10-07 10:04:00.271 +01:00 [INF] TickerQ Job completed: EmailOutbox ("aa9e6936-57c8-489a-a6c2-09f6f84b2056") in 32ms - Success: true
+2026-10-07 10:05:00.074 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("24c0f34e-f08c-4ba4-a91d-8ccf0a55fde8") from ExecutionTaskHandler
+2026-10-07 10:05:00.109 +01:00 [INF] TickerQ Job completed: EmailOutbox ("24c0f34e-f08c-4ba4-a91d-8ccf0a55fde8") in 32ms - Success: true
+2026-10-07 10:06:04.790 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9a6cad50-a0e2-4a13-8807-686b31b87438") from ExecutionTaskHandler
+2026-10-07 10:06:04.794 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("3864efb6-d0e9-4be1-949c-ff3a3d527b16") from ExecutionTaskHandler
+2026-10-07 10:06:04.798 +01:00 [INF] TickerQ Job completed: SmsOutbox ("3864efb6-d0e9-4be1-949c-ff3a3d527b16") in 2ms - Success: true
+2026-10-07 10:06:05.058 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9a6cad50-a0e2-4a13-8807-686b31b87438") in 264ms - Success: true
+2026-10-07 10:07:01.213 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ff2feea2-080f-4839-bc72-d5b71505321f") from ExecutionTaskHandler
+2026-10-07 10:07:01.870 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ff2feea2-080f-4839-bc72-d5b71505321f") in 638ms - Success: true
+2026-10-07 10:08:12.764 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("580c6535-a302-4efe-ad20-f80533e1b371") from ExecutionTaskHandler
+2026-10-07 10:08:12.733 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d1020f84-7e03-46d2-a7c9-c4c628afd7dd") from ExecutionTaskHandler
+2026-10-07 10:08:12.764 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d1020f84-7e03-46d2-a7c9-c4c628afd7dd") from ExecutionTaskHandler
+2026-10-07 10:08:12.781 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("580c6535-a302-4efe-ad20-f80533e1b371") from ExecutionTaskHandler
+2026-10-07 10:08:13.184 +01:00 [INF] TickerQ Job completed: SmsOutbox ("580c6535-a302-4efe-ad20-f80533e1b371") in 311ms - Success: true
+2026-10-07 10:08:13.184 +01:00 [INF] TickerQ Job completed: SmsOutbox ("580c6535-a302-4efe-ad20-f80533e1b371") in 103ms - Success: true
+2026-10-07 10:08:13.737 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d1020f84-7e03-46d2-a7c9-c4c628afd7dd") in 875ms - Success: true
+2026-10-07 10:08:13.737 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d1020f84-7e03-46d2-a7c9-c4c628afd7dd") in 665ms - Success: true
+2026-10-07 10:09:02.195 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("e9af82ff-9ad1-40e4-9261-0dcedd8b6d5d") from ExecutionTaskHandler
+2026-10-07 10:09:03.046 +01:00 [INF] TickerQ Job completed: EmailOutbox ("e9af82ff-9ad1-40e4-9261-0dcedd8b6d5d") in 791ms - Success: true
+2026-10-07 10:10:03.485 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6f433c67-e0a9-48f2-8ac3-fedd8e4acad1") from ExecutionTaskHandler
+2026-10-07 10:10:03.485 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("100446b8-1524-442b-9ef5-27c8d84317e0") from ExecutionTaskHandler
+2026-10-07 10:10:03.741 +01:00 [INF] TickerQ Job completed: SmsOutbox ("100446b8-1524-442b-9ef5-27c8d84317e0") in 121ms - Success: true
+2026-10-07 10:10:04.190 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6f433c67-e0a9-48f2-8ac3-fedd8e4acad1") in 589ms - Success: true
+2026-10-07 10:20:54.106 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("728afc43-07a5-4970-b841-ac1c27d484ac") from ExecutionTaskHandler
+2026-10-07 10:20:54.867 +01:00 [INF] TickerQ Job completed: EmailOutbox ("728afc43-07a5-4970-b841-ac1c27d484ac") in 630ms - Success: true
+2026-10-07 10:21:01.877 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("80bf3e52-be54-474d-aaca-608e2482cd3d") from ExecutionTaskHandler
+2026-10-07 10:21:02.163 +01:00 [INF] TickerQ Job completed: EmailOutbox ("80bf3e52-be54-474d-aaca-608e2482cd3d") in 243ms - Success: true
+2026-10-07 10:22:01.742 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("e24be885-1363-41f6-966b-49bbe13ce1d8") from ExecutionTaskHandler
+2026-10-07 10:22:01.730 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("e4498440-23db-40c8-9f8f-5763ab49799c") from ExecutionTaskHandler
+2026-10-07 10:22:01.910 +01:00 [INF] TickerQ Job completed: SmsOutbox ("e24be885-1363-41f6-966b-49bbe13ce1d8") in 89ms - Success: true
+2026-10-07 10:22:03.440 +01:00 [INF] TickerQ Job completed: EmailOutbox ("e4498440-23db-40c8-9f8f-5763ab49799c") in 1634ms - Success: true
+2026-10-07 10:23:15.913 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c4832728-2c3f-4601-9bef-a4254cb59a92") from ExecutionTaskHandler
+2026-10-07 10:23:17.361 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c4832728-2c3f-4601-9bef-a4254cb59a92") in 1231ms - Success: true
+2026-10-07 10:24:02.451 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4c0952de-8c24-440b-bac9-3c6e41d8b53f") from ExecutionTaskHandler
+2026-10-07 10:24:02.461 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("d43916a4-b701-4e90-a963-5c457126d61c") from ExecutionTaskHandler
+2026-10-07 10:24:02.582 +01:00 [INF] TickerQ Job completed: SmsOutbox ("d43916a4-b701-4e90-a963-5c457126d61c") in 77ms - Success: true
+2026-10-07 10:24:02.747 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4c0952de-8c24-440b-bac9-3c6e41d8b53f") in 247ms - Success: true
+2026-10-07 10:25:02.636 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("0b258d5a-464b-49c7-b0aa-69c719f0aa72") from ExecutionTaskHandler
+2026-10-07 10:25:03.302 +01:00 [INF] TickerQ Job completed: EmailOutbox ("0b258d5a-464b-49c7-b0aa-69c719f0aa72") in 605ms - Success: true
+2026-10-07 10:32:09.748 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("b495b536-8291-4837-846f-3b927224e241") from ExecutionTaskHandler
+2026-10-07 10:32:09.749 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("e67d195d-38c9-42d9-9e46-595abe909907") from ExecutionTaskHandler
+2026-10-07 10:32:09.848 +01:00 [INF] TickerQ Job completed: SmsOutbox ("e67d195d-38c9-42d9-9e46-595abe909907") in 11ms - Success: true
+2026-10-07 10:32:10.435 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("b495b536-8291-4837-846f-3b927224e241") from ExecutionTaskHandler
+2026-10-07 10:32:10.439 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("e67d195d-38c9-42d9-9e46-595abe909907") from ExecutionTaskHandler
+2026-10-07 10:32:10.448 +01:00 [INF] TickerQ Job completed: SmsOutbox ("e67d195d-38c9-42d9-9e46-595abe909907") in 2ms - Success: true
+2026-10-07 10:32:10.515 +01:00 [INF] TickerQ Job completed: EmailOutbox ("b495b536-8291-4837-846f-3b927224e241") in 69ms - Success: true
+2026-10-07 10:32:22.705 +01:00 [INF] TickerQ Job completed: EmailOutbox ("b495b536-8291-4837-846f-3b927224e241") in 12219ms - Success: true
+2026-10-07 10:33:13.975 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4f029a94-05a0-472f-8efb-fef860c36307") from ExecutionTaskHandler
+2026-10-07 10:33:14.313 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4f029a94-05a0-472f-8efb-fef860c36307") in 298ms - Success: true
+2026-10-07 10:34:04.848 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("0c01c20a-a02f-4c82-9e73-e0650d1ccf58") from ExecutionTaskHandler
+2026-10-07 10:34:04.938 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("71faa870-fbc0-4e30-950c-c4130f7616f9") from ExecutionTaskHandler
+2026-10-07 10:34:05.130 +01:00 [INF] TickerQ Job completed: SmsOutbox ("71faa870-fbc0-4e30-950c-c4130f7616f9") in 137ms - Success: true
+2026-10-07 10:34:05.551 +01:00 [INF] TickerQ Job completed: EmailOutbox ("0c01c20a-a02f-4c82-9e73-e0650d1ccf58") in 580ms - Success: true
+2026-10-07 10:35:05.831 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("e003f19a-7af9-460b-bb02-c54f740cc17c") from ExecutionTaskHandler
+2026-10-07 10:35:05.831 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("e003f19a-7af9-460b-bb02-c54f740cc17c") from ExecutionTaskHandler
+2026-10-07 10:35:11.116 +01:00 [INF] TickerQ Job completed: EmailOutbox ("e003f19a-7af9-460b-bb02-c54f740cc17c") in 1267ms - Success: true
+2026-10-07 10:35:11.117 +01:00 [INF] TickerQ Job completed: EmailOutbox ("e003f19a-7af9-460b-bb02-c54f740cc17c") in 1276ms - Success: true
+2026-10-07 10:36:04.712 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("63c223c6-7402-4458-b1fd-f0fd241ca1c0") from ExecutionTaskHandler
+2026-10-07 10:36:04.712 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9ae9364d-4a0e-4e6b-83d5-27b9dad35ad7") from ExecutionTaskHandler
+2026-10-07 10:36:05.272 +01:00 [INF] TickerQ Job completed: SmsOutbox ("63c223c6-7402-4458-b1fd-f0fd241ca1c0") in 202ms - Success: true
+2026-10-07 10:36:05.797 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9ae9364d-4a0e-4e6b-83d5-27b9dad35ad7") in 751ms - Success: true
+2026-10-07 10:37:03.665 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("734bb798-535b-4df8-afac-d9832215604f") from ExecutionTaskHandler
+2026-10-07 10:37:06.208 +01:00 [INF] TickerQ Job completed: EmailOutbox ("734bb798-535b-4df8-afac-d9832215604f") in 2501ms - Success: true
+2026-10-07 10:38:03.644 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("75b07f13-817c-484b-b271-ca30247ef495") from ExecutionTaskHandler
+2026-10-07 10:38:03.677 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("3c635673-912a-47de-bd87-946e0efc882a") from ExecutionTaskHandler
+2026-10-07 10:38:03.706 +01:00 [INF] TickerQ Job completed: SmsOutbox ("3c635673-912a-47de-bd87-946e0efc882a") in 19ms - Success: true
+2026-10-07 10:38:05.996 +01:00 [INF] TickerQ Job completed: EmailOutbox ("75b07f13-817c-484b-b271-ca30247ef495") in 2322ms - Success: true
+2026-10-07 10:39:03.026 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bb5f3735-528f-4270-b2be-1cb7b2558611") from ExecutionTaskHandler
+2026-10-07 10:39:03.667 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bb5f3735-528f-4270-b2be-1cb7b2558611") in 601ms - Success: true
+2026-10-07 10:40:04.876 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("18881fa6-4c62-4e51-a138-f2025a311331") from ExecutionTaskHandler
+2026-10-07 10:40:04.876 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9c14a0d4-eae8-421d-94b3-a8da17e4b089") from ExecutionTaskHandler
+2026-10-07 10:40:04.917 +01:00 [INF] TickerQ Job completed: SmsOutbox ("18881fa6-4c62-4e51-a138-f2025a311331") in 18ms - Success: true
+2026-10-07 10:40:07.164 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9c14a0d4-eae8-421d-94b3-a8da17e4b089") in 2267ms - Success: true
+2026-10-07 10:41:01.542 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("55bc14a5-4e5e-4a35-8c6d-0be36eb463f1") from ExecutionTaskHandler
+2026-10-07 10:41:02.011 +01:00 [INF] TickerQ Job completed: EmailOutbox ("55bc14a5-4e5e-4a35-8c6d-0be36eb463f1") in 416ms - Success: true
+2026-10-07 10:42:02.032 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f90c2b66-b5d6-4cad-91a9-038e098c2c29") from ExecutionTaskHandler
+2026-10-07 10:42:02.032 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("d6b895bf-e53b-474e-ac39-9f6d2b84d3cc") from ExecutionTaskHandler
+2026-10-07 10:42:02.093 +01:00 [INF] TickerQ Job completed: SmsOutbox ("d6b895bf-e53b-474e-ac39-9f6d2b84d3cc") in 28ms - Success: true
+2026-10-07 10:42:02.238 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f90c2b66-b5d6-4cad-91a9-038e098c2c29") in 179ms - Success: true
+2026-10-07 10:43:01.138 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9b6d8687-8f4c-448a-8fe6-42199d3b3694") from ExecutionTaskHandler
+2026-10-07 10:43:01.694 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9b6d8687-8f4c-448a-8fe6-42199d3b3694") in 495ms - Success: true
+2026-10-07 10:44:03.849 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("437c366f-d98b-45ed-bfb3-fbce7199c44f") from ExecutionTaskHandler
+2026-10-07 10:44:03.849 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("216a45d9-b1d0-4333-a2c1-c1cb70bdca1d") from ExecutionTaskHandler
+2026-10-07 10:44:04.355 +01:00 [INF] TickerQ Job completed: SmsOutbox ("216a45d9-b1d0-4333-a2c1-c1cb70bdca1d") in 5ms - Success: true
+2026-10-07 10:44:04.620 +01:00 [INF] TickerQ Job completed: EmailOutbox ("437c366f-d98b-45ed-bfb3-fbce7199c44f") in 303ms - Success: true
+2026-10-07 10:45:04.994 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("109ea16a-bc62-4e1c-a536-11df267f0b86") from ExecutionTaskHandler
+2026-10-07 10:45:06.605 +01:00 [INF] TickerQ Job completed: EmailOutbox ("109ea16a-bc62-4e1c-a536-11df267f0b86") in 1595ms - Success: true
+2026-10-07 10:46:04.861 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("921b7f6d-3168-4c82-b764-fe9b6a8fcbc4") from ExecutionTaskHandler
+2026-10-07 10:46:04.866 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("34dc8a70-3c6a-44b7-bc2f-5e2416032e11") from ExecutionTaskHandler
+2026-10-07 10:46:04.924 +01:00 [INF] TickerQ Job completed: SmsOutbox ("34dc8a70-3c6a-44b7-bc2f-5e2416032e11") in 30ms - Success: true
+2026-10-07 10:46:07.123 +01:00 [INF] TickerQ Job completed: EmailOutbox ("921b7f6d-3168-4c82-b764-fe9b6a8fcbc4") in 2242ms - Success: true
+2026-10-07 10:47:01.976 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ba3ace59-8841-41ca-9d27-622c66f8ad72") from ExecutionTaskHandler
+2026-10-07 10:47:02.315 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ba3ace59-8841-41ca-9d27-622c66f8ad72") in 331ms - Success: true
+2026-10-07 10:48:02.586 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("2617deee-cd66-4aa0-aec3-3b95ca703296") from ExecutionTaskHandler
+2026-10-07 10:48:02.586 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("e043b0ce-099c-491a-be41-c43c700f4407") from ExecutionTaskHandler
+2026-10-07 10:48:02.754 +01:00 [INF] TickerQ Job completed: SmsOutbox ("e043b0ce-099c-491a-be41-c43c700f4407") in 98ms - Success: true
+2026-10-07 10:48:03.964 +01:00 [INF] TickerQ Job completed: EmailOutbox ("2617deee-cd66-4aa0-aec3-3b95ca703296") in 1319ms - Success: true
+2026-10-07 10:49:01.708 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("2cf58e15-c6ff-4b67-be43-34438ff1407b") from ExecutionTaskHandler
+2026-10-07 10:49:02.311 +01:00 [INF] TickerQ Job completed: EmailOutbox ("2cf58e15-c6ff-4b67-be43-34438ff1407b") in 589ms - Success: true
+2026-10-07 10:50:01.054 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6f26a96e-e132-495d-ba7c-ba7ae74a1bbf") from ExecutionTaskHandler
+2026-10-07 10:50:01.054 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("737a9e66-d08a-4268-a637-91466a0fa86b") from ExecutionTaskHandler
+2026-10-07 10:50:01.082 +01:00 [INF] TickerQ Job completed: SmsOutbox ("737a9e66-d08a-4268-a637-91466a0fa86b") in 14ms - Success: true
+2026-10-07 10:50:01.540 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6f26a96e-e132-495d-ba7c-ba7ae74a1bbf") in 473ms - Success: true
+2026-10-07 10:51:00.522 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("507ec4bb-355c-4841-b149-e236a44f9b1f") from ExecutionTaskHandler
+2026-10-07 10:51:00.552 +01:00 [INF] TickerQ Job completed: EmailOutbox ("507ec4bb-355c-4841-b149-e236a44f9b1f") in 24ms - Success: true
+2026-10-07 10:52:00.445 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f1aec405-733e-4c8f-ac62-c6ed51ccdfb1") from ExecutionTaskHandler
+2026-10-07 10:52:00.447 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("c17c6c29-b221-4560-8702-4827ed50c292") from ExecutionTaskHandler
+2026-10-07 10:52:00.458 +01:00 [INF] TickerQ Job completed: SmsOutbox ("c17c6c29-b221-4560-8702-4827ed50c292") in 7ms - Success: true
+2026-10-07 10:52:00.525 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f1aec405-733e-4c8f-ac62-c6ed51ccdfb1") in 77ms - Success: true
+2026-10-07 10:53:01.472 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f73b5120-2915-4e71-814d-693b5d20306e") from ExecutionTaskHandler
+2026-10-07 10:53:01.770 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f73b5120-2915-4e71-814d-693b5d20306e") in 284ms - Success: true
+2026-10-07 10:54:01.966 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("1c3daa6b-ef82-4973-b139-f2e4fccdb959") from ExecutionTaskHandler
+2026-10-07 10:54:01.966 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("eeac9984-afd5-49ae-aa91-d47e31d3fdc3") from ExecutionTaskHandler
+2026-10-07 10:54:02.063 +01:00 [INF] TickerQ Job completed: SmsOutbox ("1c3daa6b-ef82-4973-b139-f2e4fccdb959") in 52ms - Success: true
+2026-10-07 10:54:03.073 +01:00 [INF] TickerQ Job completed: EmailOutbox ("eeac9984-afd5-49ae-aa91-d47e31d3fdc3") in 1061ms - Success: true
+2026-10-07 10:55:01.233 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("954ba6de-b946-44ef-b779-1faf7b5db930") from ExecutionTaskHandler
+2026-10-07 10:55:01.549 +01:00 [INF] TickerQ Job completed: EmailOutbox ("954ba6de-b946-44ef-b779-1faf7b5db930") in 298ms - Success: true
+2026-10-07 10:56:01.384 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("742d45d1-1d12-48fc-9215-5b5d2c079d5d") from ExecutionTaskHandler
+2026-10-07 10:56:01.384 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ac4b4f3e-c4b8-4e11-b9ff-3e45910e7ded") from ExecutionTaskHandler
+2026-10-07 10:56:01.432 +01:00 [INF] TickerQ Job completed: SmsOutbox ("742d45d1-1d12-48fc-9215-5b5d2c079d5d") in 29ms - Success: true
+2026-10-07 10:56:02.637 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ac4b4f3e-c4b8-4e11-b9ff-3e45910e7ded") in 1248ms - Success: true
+2026-10-07 10:57:01.440 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("672dde25-f8a4-4336-aef9-ceb66383f8b4") from ExecutionTaskHandler
+2026-10-07 10:57:02.160 +01:00 [INF] TickerQ Job completed: EmailOutbox ("672dde25-f8a4-4336-aef9-ceb66383f8b4") in 696ms - Success: true
+2026-10-07 10:58:00.656 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("b9610a8a-c0ca-4fee-a1d6-5dd1daebbbb8") from ExecutionTaskHandler
+2026-10-07 10:58:00.656 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("1a52da4d-9743-48dd-8538-456125f53688") from ExecutionTaskHandler
+2026-10-07 10:58:00.669 +01:00 [INF] TickerQ Job completed: SmsOutbox ("1a52da4d-9743-48dd-8538-456125f53688") in 6ms - Success: true
+2026-10-07 10:58:00.705 +01:00 [INF] TickerQ Job completed: EmailOutbox ("b9610a8a-c0ca-4fee-a1d6-5dd1daebbbb8") in 44ms - Success: true
+2026-10-07 10:59:00.244 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("3dbd5bcb-25f6-4f04-8901-62ee741942f8") from ExecutionTaskHandler
+2026-10-07 10:59:00.359 +01:00 [INF] TickerQ Job completed: EmailOutbox ("3dbd5bcb-25f6-4f04-8901-62ee741942f8") in 109ms - Success: true
+2026-10-07 11:00:00.159 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - PaymentTimeout ("342d3927-4263-4660-831c-abac469163e3") from ExecutionTaskHandler
+2026-10-07 11:00:00.159 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("1e6e17d7-655b-4fd7-935f-67485af44015") from ExecutionTaskHandler
+2026-10-07 11:00:00.162 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("b6c77045-136c-4532-887b-fec2b5622766") from ExecutionTaskHandler
+2026-10-07 11:00:00.164 +01:00 [INF] TickerQ Job completed: SmsOutbox ("b6c77045-136c-4532-887b-fec2b5622766") in 1ms - Success: true
+2026-10-07 11:00:00.192 +01:00 [INF] TickerQ Job completed: EmailOutbox ("1e6e17d7-655b-4fd7-935f-67485af44015") in 29ms - Success: true
+2026-10-07 11:00:00.281 +01:00 [INF] PaymentTimeout job ran — no expired transactions.
+2026-10-07 11:00:00.282 +01:00 [INF] TickerQ Job completed: PaymentTimeout ("342d3927-4263-4660-831c-abac469163e3") in 120ms - Success: true
+2026-10-07 11:01:00.123 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("df4230bc-1e47-45b7-bdee-b5d150726e8a") from ExecutionTaskHandler
+2026-10-07 11:01:00.186 +01:00 [INF] TickerQ Job completed: EmailOutbox ("df4230bc-1e47-45b7-bdee-b5d150726e8a") in 60ms - Success: true
+2026-10-07 11:02:00.061 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f64fa443-3493-4040-bffb-65885cb51988") from ExecutionTaskHandler
+2026-10-07 11:02:00.061 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("cd3a74ed-436d-4e1e-a6a0-9e0464ecc750") from ExecutionTaskHandler
+2026-10-07 11:02:00.068 +01:00 [INF] TickerQ Job completed: SmsOutbox ("cd3a74ed-436d-4e1e-a6a0-9e0464ecc750") in 3ms - Success: true
+2026-10-07 11:02:00.092 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f64fa443-3493-4040-bffb-65885cb51988") in 29ms - Success: true
+2026-10-07 11:03:00.096 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("df0692ef-42d2-417f-b3a5-61fc80f9eec1") from ExecutionTaskHandler
+2026-10-07 11:03:00.143 +01:00 [INF] TickerQ Job completed: EmailOutbox ("df0692ef-42d2-417f-b3a5-61fc80f9eec1") in 45ms - Success: true
+2026-10-07 11:04:00.330 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("0392afa8-9541-4366-a8a1-5db90276b7f8") from ExecutionTaskHandler
+2026-10-07 11:04:00.330 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("24889e4f-090e-4463-b91d-805e23c7ab32") from ExecutionTaskHandler
+2026-10-07 11:04:00.335 +01:00 [INF] TickerQ Job completed: SmsOutbox ("24889e4f-090e-4463-b91d-805e23c7ab32") in 1ms - Success: true
+2026-10-07 11:04:00.348 +01:00 [INF] TickerQ Job completed: EmailOutbox ("0392afa8-9541-4366-a8a1-5db90276b7f8") in 15ms - Success: true
+2026-10-07 11:05:00.055 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("925053e8-00ba-41c5-abb9-ebafd9f5c302") from ExecutionTaskHandler
+2026-10-07 11:05:00.082 +01:00 [INF] TickerQ Job completed: EmailOutbox ("925053e8-00ba-41c5-abb9-ebafd9f5c302") in 24ms - Success: true
+2026-10-07 11:06:00.058 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("0533bdab-4237-4428-8790-0aea43be7629") from ExecutionTaskHandler
+2026-10-07 11:06:00.058 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("18814454-649c-492e-ab15-d73fc112a486") from ExecutionTaskHandler
+2026-10-07 11:06:00.062 +01:00 [INF] TickerQ Job completed: SmsOutbox ("0533bdab-4237-4428-8790-0aea43be7629") in 1ms - Success: true
+2026-10-07 11:06:00.111 +01:00 [INF] TickerQ Job completed: EmailOutbox ("18814454-649c-492e-ab15-d73fc112a486") in 50ms - Success: true
+2026-10-07 11:07:00.069 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("28bfc170-63b4-4473-b82b-da66a752053f") from ExecutionTaskHandler
+2026-10-07 11:07:00.082 +01:00 [INF] TickerQ Job completed: EmailOutbox ("28bfc170-63b4-4473-b82b-da66a752053f") in 11ms - Success: true
+2026-10-07 11:08:00.035 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("638e877b-ba69-47c2-8e03-c95826a9f721") from ExecutionTaskHandler
+2026-10-07 11:08:00.035 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f1596670-3add-4836-b1d4-5f719daecb35") from ExecutionTaskHandler
+2026-10-07 11:08:00.040 +01:00 [INF] TickerQ Job completed: SmsOutbox ("638e877b-ba69-47c2-8e03-c95826a9f721") in 3ms - Success: true
+2026-10-07 11:08:00.080 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f1596670-3add-4836-b1d4-5f719daecb35") in 43ms - Success: true
+2026-10-07 11:09:00.061 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9ada8e4e-168b-41b4-9429-34eda44a5d76") from ExecutionTaskHandler
+2026-10-07 11:09:00.074 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9ada8e4e-168b-41b4-9429-34eda44a5d76") in 9ms - Success: true
+2026-10-07 11:10:00.032 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("f9b6f760-1a18-4ebe-ae24-69ddfdfa0199") from ExecutionTaskHandler
+2026-10-07 11:10:00.032 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("b84e5139-f152-4de4-ade6-310184b89cfb") from ExecutionTaskHandler
+2026-10-07 11:10:00.035 +01:00 [INF] TickerQ Job completed: SmsOutbox ("f9b6f760-1a18-4ebe-ae24-69ddfdfa0199") in 1ms - Success: true
+2026-10-07 11:10:00.042 +01:00 [INF] TickerQ Job completed: EmailOutbox ("b84e5139-f152-4de4-ade6-310184b89cfb") in 7ms - Success: true
+2026-10-07 11:11:00.057 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("737bf4f6-51ae-4ddd-8384-8b5e3004b31a") from ExecutionTaskHandler
+2026-10-07 11:11:00.134 +01:00 [INF] TickerQ Job completed: EmailOutbox ("737bf4f6-51ae-4ddd-8384-8b5e3004b31a") in 73ms - Success: true
+2026-10-07 11:12:00.107 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bd362ae9-3dff-43e7-a916-4fe5acb26bc5") from ExecutionTaskHandler
+2026-10-07 11:12:00.108 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("979e1bbe-f71d-4cd7-9701-19f87a726697") from ExecutionTaskHandler
+2026-10-07 11:12:00.111 +01:00 [INF] TickerQ Job completed: SmsOutbox ("979e1bbe-f71d-4cd7-9701-19f87a726697") in 0ms - Success: true
+2026-10-07 11:12:00.118 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bd362ae9-3dff-43e7-a916-4fe5acb26bc5") in 7ms - Success: true
+2026-10-07 11:13:00.040 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("838d2f5b-6c05-4cfe-b372-57f58112bb9e") from ExecutionTaskHandler
+2026-10-07 11:13:00.067 +01:00 [INF] TickerQ Job completed: EmailOutbox ("838d2f5b-6c05-4cfe-b372-57f58112bb9e") in 24ms - Success: true
+2026-10-07 11:14:00.055 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("370886c0-7320-4356-b0ec-5fbfea31ba08") from ExecutionTaskHandler
+2026-10-07 11:14:00.055 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("f3019e08-2b29-47a5-a81c-7e7f20b233ff") from ExecutionTaskHandler
+2026-10-07 11:14:00.058 +01:00 [INF] TickerQ Job completed: SmsOutbox ("f3019e08-2b29-47a5-a81c-7e7f20b233ff") in 1ms - Success: true
+2026-10-07 11:14:00.063 +01:00 [INF] TickerQ Job completed: EmailOutbox ("370886c0-7320-4356-b0ec-5fbfea31ba08") in 6ms - Success: true
+2026-10-07 11:15:00.073 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("09e26146-7fc6-4ad6-b999-32e6eeab0479") from ExecutionTaskHandler
+2026-10-07 11:15:00.112 +01:00 [INF] TickerQ Job completed: EmailOutbox ("09e26146-7fc6-4ad6-b999-32e6eeab0479") in 33ms - Success: true
+2026-10-07 11:16:00.200 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("5c9f9464-50af-47cc-94ee-363a31c568cd") from ExecutionTaskHandler
+2026-10-07 11:16:00.200 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("0d8cfee8-78b5-47d5-a898-4953a6f7b801") from ExecutionTaskHandler
+2026-10-07 11:16:00.205 +01:00 [INF] TickerQ Job completed: SmsOutbox ("0d8cfee8-78b5-47d5-a898-4953a6f7b801") in 1ms - Success: true
+2026-10-07 11:16:00.236 +01:00 [INF] TickerQ Job completed: EmailOutbox ("5c9f9464-50af-47cc-94ee-363a31c568cd") in 32ms - Success: true
+2026-10-07 11:17:00.057 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("fb9e7e85-fa39-4546-a948-10a5f5c38ad5") from ExecutionTaskHandler
+2026-10-07 11:17:00.069 +01:00 [INF] TickerQ Job completed: EmailOutbox ("fb9e7e85-fa39-4546-a948-10a5f5c38ad5") in 10ms - Success: true
+2026-10-07 11:18:00.038 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7ca9dc48-0939-4040-bfac-b13016281eb3") from ExecutionTaskHandler
+2026-10-07 11:18:00.038 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("878557cb-4d26-44af-bb42-d787531bbb60") from ExecutionTaskHandler
+2026-10-07 11:18:00.041 +01:00 [INF] TickerQ Job completed: SmsOutbox ("878557cb-4d26-44af-bb42-d787531bbb60") in 1ms - Success: true
+2026-10-07 11:18:00.061 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7ca9dc48-0939-4040-bfac-b13016281eb3") in 21ms - Success: true
+2026-10-07 11:19:00.036 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9a6d9b2f-a530-40bb-b15d-0f4ab8f27627") from ExecutionTaskHandler
+2026-10-07 11:19:00.045 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9a6d9b2f-a530-40bb-b15d-0f4ab8f27627") in 6ms - Success: true
+2026-10-07 11:20:00.057 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("da9c8942-4785-4a2b-883f-1c7dbe863441") from ExecutionTaskHandler
+2026-10-07 11:20:00.057 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9022666e-71ce-4e56-bbd7-9716500573bf") from ExecutionTaskHandler
+2026-10-07 11:20:00.063 +01:00 [INF] TickerQ Job completed: SmsOutbox ("da9c8942-4785-4a2b-883f-1c7dbe863441") in 4ms - Success: true
+2026-10-07 11:20:00.072 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9022666e-71ce-4e56-bbd7-9716500573bf") in 14ms - Success: true
+2026-10-07 11:21:00.041 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("dbf7012c-de26-477e-b057-a739b806e176") from ExecutionTaskHandler
+2026-10-07 11:21:00.072 +01:00 [INF] TickerQ Job completed: EmailOutbox ("dbf7012c-de26-477e-b057-a739b806e176") in 29ms - Success: true
+2026-10-07 11:22:00.055 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ee464462-d957-4f69-a947-3bf1de03209b") from ExecutionTaskHandler
+2026-10-07 11:22:00.055 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("337d22f1-2a9f-4364-bea3-d63f96fc4828") from ExecutionTaskHandler
+2026-10-07 11:22:00.061 +01:00 [INF] TickerQ Job completed: SmsOutbox ("337d22f1-2a9f-4364-bea3-d63f96fc4828") in 2ms - Success: true
+2026-10-07 11:22:00.068 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ee464462-d957-4f69-a947-3bf1de03209b") in 10ms - Success: true
+2026-10-07 11:23:00.036 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("07fb7e96-4178-42b1-aac0-b60298189d4f") from ExecutionTaskHandler
+2026-10-07 11:23:00.053 +01:00 [INF] TickerQ Job completed: EmailOutbox ("07fb7e96-4178-42b1-aac0-b60298189d4f") in 13ms - Success: true
+2026-10-07 11:24:00.043 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("999a9ca2-e2ff-464c-8af7-555c80c6e1fc") from ExecutionTaskHandler
+2026-10-07 11:24:00.043 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("87ccf13c-a246-4768-bfba-7435a8639cd8") from ExecutionTaskHandler
+2026-10-07 11:24:00.046 +01:00 [INF] TickerQ Job completed: SmsOutbox ("87ccf13c-a246-4768-bfba-7435a8639cd8") in 1ms - Success: true
+2026-10-07 11:24:00.099 +01:00 [INF] TickerQ Job completed: EmailOutbox ("999a9ca2-e2ff-464c-8af7-555c80c6e1fc") in 54ms - Success: true
+2026-10-07 11:25:00.050 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("fe085dfa-116c-45e7-9253-3c3c92c11133") from ExecutionTaskHandler
+2026-10-07 11:25:00.067 +01:00 [INF] TickerQ Job completed: EmailOutbox ("fe085dfa-116c-45e7-9253-3c3c92c11133") in 15ms - Success: true
+2026-10-07 11:26:00.048 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7acc87dc-5533-4f07-b1b5-4f236240b099") from ExecutionTaskHandler
+2026-10-07 11:26:00.049 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("18165c0e-016c-4664-974c-723cb6bc2622") from ExecutionTaskHandler
+2026-10-07 11:26:00.052 +01:00 [INF] TickerQ Job completed: SmsOutbox ("18165c0e-016c-4664-974c-723cb6bc2622") in 1ms - Success: true
+2026-10-07 11:26:00.059 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7acc87dc-5533-4f07-b1b5-4f236240b099") in 9ms - Success: true
+2026-10-07 11:27:00.149 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d2abdfbd-2f92-4b63-9d58-6f46e13343d7") from ExecutionTaskHandler
+2026-10-07 11:27:00.204 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d2abdfbd-2f92-4b63-9d58-6f46e13343d7") in 48ms - Success: true
+2026-10-07 11:28:00.051 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("a3fa4b8e-0ef9-46b3-910f-f09411b7e1fc") from ExecutionTaskHandler
+2026-10-07 11:28:00.051 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("979c9ebe-a887-4b25-970e-e27ce410e6ec") from ExecutionTaskHandler
+2026-10-07 11:28:00.057 +01:00 [INF] TickerQ Job completed: SmsOutbox ("979c9ebe-a887-4b25-970e-e27ce410e6ec") in 2ms - Success: true
+2026-10-07 11:28:00.064 +01:00 [INF] TickerQ Job completed: EmailOutbox ("a3fa4b8e-0ef9-46b3-910f-f09411b7e1fc") in 11ms - Success: true
+2026-10-07 11:29:00.041 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f109fb25-bfd5-4759-b400-5344e10011a5") from ExecutionTaskHandler
+2026-10-07 11:29:00.059 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f109fb25-bfd5-4759-b400-5344e10011a5") in 16ms - Success: true
+2026-10-07 11:30:00.039 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("dd315baa-d573-4aca-a4be-8759ebdcadd9") from ExecutionTaskHandler
+2026-10-07 11:30:00.039 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6b632827-3c44-425f-8d61-ac7c336fe539") from ExecutionTaskHandler
+2026-10-07 11:30:00.041 +01:00 [INF] TickerQ Job completed: SmsOutbox ("dd315baa-d573-4aca-a4be-8759ebdcadd9") in 1ms - Success: true
+2026-10-07 11:30:00.048 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6b632827-3c44-425f-8d61-ac7c336fe539") in 7ms - Success: true
+2026-10-07 11:31:00.035 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6831cb31-bad5-4ac3-a5c7-1d25dd9869e8") from ExecutionTaskHandler
+2026-10-07 11:31:00.070 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6831cb31-bad5-4ac3-a5c7-1d25dd9869e8") in 32ms - Success: true
+2026-10-07 11:32:00.071 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("e4742113-aaf3-4c2c-a327-bf44ffb02707") from ExecutionTaskHandler
+2026-10-07 11:32:00.072 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("a0ef046f-6ae5-4a55-9cef-bf82c3b85dd5") from ExecutionTaskHandler
+2026-10-07 11:32:00.078 +01:00 [INF] TickerQ Job completed: SmsOutbox ("a0ef046f-6ae5-4a55-9cef-bf82c3b85dd5") in 3ms - Success: true
+2026-10-07 11:32:00.087 +01:00 [INF] TickerQ Job completed: EmailOutbox ("e4742113-aaf3-4c2c-a327-bf44ffb02707") in 12ms - Success: true
+2026-10-07 11:33:00.045 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f311b0b5-b508-41d1-a1ab-a4dfa508f93f") from ExecutionTaskHandler
+2026-10-07 11:33:00.098 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f311b0b5-b508-41d1-a1ab-a4dfa508f93f") in 48ms - Success: true
+2026-10-07 11:34:00.099 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("915ab61a-64e4-4a28-b37f-8d5677152f8c") from ExecutionTaskHandler
+2026-10-07 11:34:00.099 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9e7ba429-54e9-4f0d-809e-c429ab1608b3") from ExecutionTaskHandler
+2026-10-07 11:34:00.102 +01:00 [INF] TickerQ Job completed: SmsOutbox ("915ab61a-64e4-4a28-b37f-8d5677152f8c") in 1ms - Success: true
+2026-10-07 11:34:00.122 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9e7ba429-54e9-4f0d-809e-c429ab1608b3") in 21ms - Success: true
+2026-10-07 11:35:00.064 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d719a163-2407-48ca-82e3-1f1de106ad81") from ExecutionTaskHandler
+2026-10-07 11:35:00.082 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d719a163-2407-48ca-82e3-1f1de106ad81") in 13ms - Success: true
+2026-10-07 11:36:00.035 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ee63ee3e-9fab-4d50-ad4e-3d2bb000245a") from ExecutionTaskHandler
+2026-10-07 11:36:00.036 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("d5310077-ecef-425e-abbc-44b69294fb7b") from ExecutionTaskHandler
+2026-10-07 11:36:00.046 +01:00 [INF] TickerQ Job completed: SmsOutbox ("d5310077-ecef-425e-abbc-44b69294fb7b") in 8ms - Success: true
+2026-10-07 11:36:00.079 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ee63ee3e-9fab-4d50-ad4e-3d2bb000245a") in 41ms - Success: true
+2026-10-07 11:37:00.061 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("2239f2c2-1bc4-4330-9b0c-351ccddc12cf") from ExecutionTaskHandler
+2026-10-07 11:37:00.088 +01:00 [INF] TickerQ Job completed: EmailOutbox ("2239f2c2-1bc4-4330-9b0c-351ccddc12cf") in 25ms - Success: true
+2026-10-07 11:38:00.042 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("258ecdf6-acc6-4e51-a62a-fe1eca4dfae9") from ExecutionTaskHandler
+2026-10-07 11:38:00.043 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c2b003b3-6e98-4ad7-90aa-b04632085635") from ExecutionTaskHandler
+2026-10-07 11:38:00.050 +01:00 [INF] TickerQ Job completed: SmsOutbox ("258ecdf6-acc6-4e51-a62a-fe1eca4dfae9") in 5ms - Success: true
+2026-10-07 11:38:00.054 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c2b003b3-6e98-4ad7-90aa-b04632085635") in 8ms - Success: true
+2026-10-07 11:39:00.052 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("3a351735-0eef-4e00-84fe-53d317bf40c8") from ExecutionTaskHandler
+2026-10-07 11:39:00.061 +01:00 [INF] TickerQ Job completed: EmailOutbox ("3a351735-0eef-4e00-84fe-53d317bf40c8") in 6ms - Success: true
+2026-10-07 11:40:00.039 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("36f88172-20c0-4b17-87a8-abfa29ae1c35") from ExecutionTaskHandler
+2026-10-07 11:40:00.039 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("874cf7c0-a2c6-429f-8609-7693be87be8c") from ExecutionTaskHandler
+2026-10-07 11:40:00.042 +01:00 [INF] TickerQ Job completed: SmsOutbox ("874cf7c0-a2c6-429f-8609-7693be87be8c") in 0ms - Success: true
+2026-10-07 11:40:00.055 +01:00 [INF] TickerQ Job completed: EmailOutbox ("36f88172-20c0-4b17-87a8-abfa29ae1c35") in 14ms - Success: true
+2026-10-07 11:41:00.101 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("73d554d4-d919-4ddf-b04f-7a0a878927ff") from ExecutionTaskHandler
+2026-10-07 11:41:00.250 +01:00 [INF] TickerQ Job completed: EmailOutbox ("73d554d4-d919-4ddf-b04f-7a0a878927ff") in 135ms - Success: true
+2026-10-07 11:42:00.185 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("141d3704-64dc-4d28-9898-a4b795e5dffc") from ExecutionTaskHandler
+2026-10-07 11:42:00.185 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9fc44ff4-b997-4d82-9199-7754a7b99f59") from ExecutionTaskHandler
+2026-10-07 11:42:00.192 +01:00 [INF] TickerQ Job completed: SmsOutbox ("141d3704-64dc-4d28-9898-a4b795e5dffc") in 4ms - Success: true
+2026-10-07 11:42:00.203 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9fc44ff4-b997-4d82-9199-7754a7b99f59") in 16ms - Success: true
+2026-10-07 11:43:00.056 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6ff63dc0-3bb7-4f98-833d-6d9ee3bd6124") from ExecutionTaskHandler
+2026-10-07 11:43:00.071 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6ff63dc0-3bb7-4f98-833d-6d9ee3bd6124") in 10ms - Success: true
+2026-10-07 11:44:00.132 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c3c591c2-9ea3-4766-bae8-3cfd80e47506") from ExecutionTaskHandler
+2026-10-07 11:44:00.135 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("1ccdf082-ef67-4f07-84fd-4df2b4241dd8") from ExecutionTaskHandler
+2026-10-07 11:44:00.147 +01:00 [INF] TickerQ Job completed: SmsOutbox ("1ccdf082-ef67-4f07-84fd-4df2b4241dd8") in 5ms - Success: true
+2026-10-07 11:44:00.170 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c3c591c2-9ea3-4766-bae8-3cfd80e47506") in 30ms - Success: true
+2026-10-07 11:45:00.059 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("a962fc14-abfe-4f64-a60f-13dc25c8e169") from ExecutionTaskHandler
+2026-10-07 11:45:00.075 +01:00 [INF] TickerQ Job completed: EmailOutbox ("a962fc14-abfe-4f64-a60f-13dc25c8e169") in 13ms - Success: true
+2026-10-07 11:46:00.055 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("31c6c458-5924-4c9f-9b31-af5a434aae8c") from ExecutionTaskHandler
+2026-10-07 11:46:00.058 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("f3a97ac7-660f-42ed-9876-36ab9b7c8f0a") from ExecutionTaskHandler
+2026-10-07 11:46:00.061 +01:00 [INF] TickerQ Job completed: SmsOutbox ("f3a97ac7-660f-42ed-9876-36ab9b7c8f0a") in 2ms - Success: true
+2026-10-07 11:46:00.094 +01:00 [INF] TickerQ Job completed: EmailOutbox ("31c6c458-5924-4c9f-9b31-af5a434aae8c") in 35ms - Success: true
+2026-10-07 11:47:00.206 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4be94251-4d94-4201-a689-b14411ad74af") from ExecutionTaskHandler
+2026-10-07 11:47:00.227 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4be94251-4d94-4201-a689-b14411ad74af") in 18ms - Success: true
+2026-10-07 11:48:00.038 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("74703c96-bf57-4f3c-bfc4-855a3a5a3c36") from ExecutionTaskHandler
+2026-10-07 11:48:00.038 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7fc5c07b-dcd9-4f5c-8ac6-f6b89c23b764") from ExecutionTaskHandler
+2026-10-07 11:48:00.048 +01:00 [INF] TickerQ Job completed: SmsOutbox ("74703c96-bf57-4f3c-bfc4-855a3a5a3c36") in 6ms - Success: true
+2026-10-07 11:48:00.061 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7fc5c07b-dcd9-4f5c-8ac6-f6b89c23b764") in 19ms - Success: true
+2026-10-07 11:49:00.059 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("e51fcd79-4256-4254-8f0e-43749ee51dbe") from ExecutionTaskHandler
+2026-10-07 11:49:00.076 +01:00 [INF] TickerQ Job completed: EmailOutbox ("e51fcd79-4256-4254-8f0e-43749ee51dbe") in 14ms - Success: true
+2026-10-07 11:50:00.036 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("1eaebd62-edb4-4f73-a712-3c05cc6155f0") from ExecutionTaskHandler
+2026-10-07 11:50:00.036 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("afa908a8-7e9f-4e8a-8dda-9781c2391aa6") from ExecutionTaskHandler
+2026-10-07 11:50:00.041 +01:00 [INF] TickerQ Job completed: SmsOutbox ("afa908a8-7e9f-4e8a-8dda-9781c2391aa6") in 2ms - Success: true
+2026-10-07 11:50:00.045 +01:00 [INF] TickerQ Job completed: EmailOutbox ("1eaebd62-edb4-4f73-a712-3c05cc6155f0") in 5ms - Success: true
+2026-10-07 11:51:00.774 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("45334edf-66cf-44f0-bbfd-4963f2b2a97c") from ExecutionTaskHandler
+2026-10-07 11:51:01.263 +01:00 [INF] TickerQ Job completed: EmailOutbox ("45334edf-66cf-44f0-bbfd-4963f2b2a97c") in 441ms - Success: true
+2026-10-07 11:52:00.597 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("2f533d2d-7d07-41f0-b406-af827acf8cd8") from ExecutionTaskHandler
+2026-10-07 11:52:00.597 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d82f1be4-a2a7-445b-af54-b85c0301dd23") from ExecutionTaskHandler
+2026-10-07 11:52:00.611 +01:00 [INF] TickerQ Job completed: SmsOutbox ("2f533d2d-7d07-41f0-b406-af827acf8cd8") in 8ms - Success: true
+2026-10-07 11:52:00.638 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d82f1be4-a2a7-445b-af54-b85c0301dd23") in 36ms - Success: true
+2026-10-07 11:53:00.141 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7dabb4fb-b1ec-445f-a096-bf64649930c5") from ExecutionTaskHandler
+2026-10-07 11:53:00.170 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7dabb4fb-b1ec-445f-a096-bf64649930c5") in 22ms - Success: true
+2026-10-07 11:54:00.096 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("80305013-d8a9-4e5f-a0b5-1ce196ec3efa") from ExecutionTaskHandler
+2026-10-07 11:54:00.098 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("fc4c2589-7049-4dff-bb19-41960441e660") from ExecutionTaskHandler
+2026-10-07 11:54:00.104 +01:00 [INF] TickerQ Job completed: SmsOutbox ("80305013-d8a9-4e5f-a0b5-1ce196ec3efa") in 1ms - Success: true
+2026-10-07 11:54:00.120 +01:00 [INF] TickerQ Job completed: EmailOutbox ("fc4c2589-7049-4dff-bb19-41960441e660") in 20ms - Success: true
+2026-10-07 11:55:00.089 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("c0cb9bc5-9d45-4181-a402-0fa98ac0ec1b") from ExecutionTaskHandler
+2026-10-07 11:55:00.135 +01:00 [INF] TickerQ Job completed: EmailOutbox ("c0cb9bc5-9d45-4181-a402-0fa98ac0ec1b") in 41ms - Success: true
+2026-10-07 11:56:00.091 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ee9a7047-2996-4e84-9e65-9ea36f6a77b2") from ExecutionTaskHandler
+2026-10-07 11:56:00.091 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("ab35115b-21fc-47bb-a212-bb785bfebc25") from ExecutionTaskHandler
+2026-10-07 11:56:00.098 +01:00 [INF] TickerQ Job completed: SmsOutbox ("ab35115b-21fc-47bb-a212-bb785bfebc25") in 3ms - Success: true
+2026-10-07 11:56:00.172 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ee9a7047-2996-4e84-9e65-9ea36f6a77b2") in 77ms - Success: true
+2026-10-07 11:57:00.106 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ecadaec1-fbda-44be-ae52-1a16a0c2137a") from ExecutionTaskHandler
+2026-10-07 11:57:00.237 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ecadaec1-fbda-44be-ae52-1a16a0c2137a") in 129ms - Success: true
+2026-10-07 11:58:00.236 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9701f5d1-c816-422f-a53e-02fd3fd3803d") from ExecutionTaskHandler
+2026-10-07 11:58:00.236 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("2ab9c7a9-8053-4b34-83af-d1a9ea91e35e") from ExecutionTaskHandler
+2026-10-07 11:58:00.246 +01:00 [INF] TickerQ Job completed: SmsOutbox ("2ab9c7a9-8053-4b34-83af-d1a9ea91e35e") in 4ms - Success: true
+2026-10-07 11:58:00.263 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9701f5d1-c816-422f-a53e-02fd3fd3803d") in 21ms - Success: true
+2026-10-07 11:59:00.064 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("54fddad4-afbb-45a1-96d1-ab3ad2335995") from ExecutionTaskHandler
+2026-10-07 11:59:00.087 +01:00 [INF] TickerQ Job completed: EmailOutbox ("54fddad4-afbb-45a1-96d1-ab3ad2335995") in 20ms - Success: true
+2026-10-07 12:00:00.345 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - PaymentTimeout ("55eda92a-2af1-4325-8bfc-3105b31806de") from ExecutionTaskHandler
+2026-10-07 12:00:00.349 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("b73e8521-5c88-4652-b6e9-e6da78a4cc4c") from ExecutionTaskHandler
+2026-10-07 12:00:00.350 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("3c48717a-afd1-473e-a9ec-775df3313483") from ExecutionTaskHandler
+2026-10-07 12:00:00.354 +01:00 [INF] TickerQ Job completed: SmsOutbox ("b73e8521-5c88-4652-b6e9-e6da78a4cc4c") in 4ms - Success: true
+2026-10-07 12:00:00.386 +01:00 [INF] TickerQ Job completed: EmailOutbox ("3c48717a-afd1-473e-a9ec-775df3313483") in 35ms - Success: true
+2026-10-07 12:00:00.400 +01:00 [INF] PaymentTimeout job ran — no expired transactions.
+2026-10-07 12:00:00.401 +01:00 [INF] TickerQ Job completed: PaymentTimeout ("55eda92a-2af1-4325-8bfc-3105b31806de") in 51ms - Success: true
+2026-10-07 12:01:00.063 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("838ccd2b-1fe1-41c3-b359-1a3509cf111a") from ExecutionTaskHandler
+2026-10-07 12:01:00.111 +01:00 [INF] TickerQ Job completed: EmailOutbox ("838ccd2b-1fe1-41c3-b359-1a3509cf111a") in 45ms - Success: true
+2026-10-07 12:02:00.049 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("3144d43a-03f3-4c61-9bed-40f9457f7f02") from ExecutionTaskHandler
+2026-10-07 12:02:00.049 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4bb59689-a17d-40a6-b590-5f7eb26a448f") from ExecutionTaskHandler
+2026-10-07 12:02:00.056 +01:00 [INF] TickerQ Job completed: SmsOutbox ("3144d43a-03f3-4c61-9bed-40f9457f7f02") in 3ms - Success: true
+2026-10-07 12:02:00.094 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4bb59689-a17d-40a6-b590-5f7eb26a448f") in 40ms - Success: true
+2026-10-07 12:03:00.100 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d3a9da51-bfce-49b5-9bea-8f1302386413") from ExecutionTaskHandler
+2026-10-07 12:03:00.116 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d3a9da51-bfce-49b5-9bea-8f1302386413") in 13ms - Success: true
+2026-10-07 12:04:00.039 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("60576092-08c0-4ce4-9cfb-b98f4135bedd") from ExecutionTaskHandler
+2026-10-07 12:04:00.039 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("3185ef37-357c-469a-875f-bfaed9cdaa7f") from ExecutionTaskHandler
+2026-10-07 12:04:00.042 +01:00 [INF] TickerQ Job completed: SmsOutbox ("60576092-08c0-4ce4-9cfb-b98f4135bedd") in 1ms - Success: true
+2026-10-07 12:04:00.056 +01:00 [INF] TickerQ Job completed: EmailOutbox ("3185ef37-357c-469a-875f-bfaed9cdaa7f") in 15ms - Success: true
+2026-10-07 12:05:00.037 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7dd7e2b8-df42-402b-b94c-96df516347bf") from ExecutionTaskHandler
+2026-10-07 12:05:00.051 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7dd7e2b8-df42-402b-b94c-96df516347bf") in 10ms - Success: true
+2026-10-07 12:06:00.048 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("72c042d3-e2a0-48df-a396-73d7b3cf3228") from ExecutionTaskHandler
+2026-10-07 12:06:00.048 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("d074d4c8-5bbf-4423-8b8b-fcb5d3fc7b7f") from ExecutionTaskHandler
+2026-10-07 12:06:00.052 +01:00 [INF] TickerQ Job completed: SmsOutbox ("d074d4c8-5bbf-4423-8b8b-fcb5d3fc7b7f") in 1ms - Success: true
+2026-10-07 12:06:00.087 +01:00 [INF] TickerQ Job completed: EmailOutbox ("72c042d3-e2a0-48df-a396-73d7b3cf3228") in 35ms - Success: true
+2026-10-07 12:07:00.061 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("5a1c1092-7280-4f41-8160-be8003b2e99d") from ExecutionTaskHandler
+2026-10-07 12:07:00.069 +01:00 [INF] TickerQ Job completed: EmailOutbox ("5a1c1092-7280-4f41-8160-be8003b2e99d") in 5ms - Success: true
+2026-10-07 12:08:00.070 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("eed87778-bf89-4c3a-b8c3-db08bc6530ac") from ExecutionTaskHandler
+2026-10-07 12:08:00.070 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("a0078721-a8a4-40a1-9239-94ea18f8a397") from ExecutionTaskHandler
+2026-10-07 12:08:00.078 +01:00 [INF] TickerQ Job completed: SmsOutbox ("a0078721-a8a4-40a1-9239-94ea18f8a397") in 3ms - Success: true
+2026-10-07 12:08:00.096 +01:00 [INF] TickerQ Job completed: EmailOutbox ("eed87778-bf89-4c3a-b8c3-db08bc6530ac") in 20ms - Success: true
+2026-10-07 12:09:00.044 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("214e34ab-6b3d-4c71-a934-63cbda674e1c") from ExecutionTaskHandler
+2026-10-07 12:09:00.054 +01:00 [INF] TickerQ Job completed: EmailOutbox ("214e34ab-6b3d-4c71-a934-63cbda674e1c") in 7ms - Success: true
+2026-10-07 12:10:00.035 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("891f436f-ad67-423e-9988-3cb3e536bfb7") from ExecutionTaskHandler
+2026-10-07 12:10:00.035 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ec3288d3-b219-431c-9632-ea862f0c1a28") from ExecutionTaskHandler
+2026-10-07 12:10:00.041 +01:00 [INF] TickerQ Job completed: SmsOutbox ("891f436f-ad67-423e-9988-3cb3e536bfb7") in 2ms - Success: true
+2026-10-07 12:10:00.067 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ec3288d3-b219-431c-9632-ea862f0c1a28") in 28ms - Success: true
+2026-10-07 12:11:00.081 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("cfc232b2-55a3-4c18-b423-82f26c486ba2") from ExecutionTaskHandler
+2026-10-07 12:11:00.364 +01:00 [INF] TickerQ Job completed: EmailOutbox ("cfc232b2-55a3-4c18-b423-82f26c486ba2") in 273ms - Success: true
+2026-10-07 12:12:53.057 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("fe74b57e-a51a-4f5c-a4e8-76bd01fee41f") from ExecutionTaskHandler
+2026-10-07 12:12:53.062 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("395003ed-86b2-4beb-8ef5-a7ca6797ceae") from ExecutionTaskHandler
+2026-10-07 12:12:53.063 +01:00 [INF] TickerQ Job completed: SmsOutbox ("395003ed-86b2-4beb-8ef5-a7ca6797ceae") in 0ms - Success: true
+2026-10-07 12:12:53.074 +01:00 [INF] TickerQ Job completed: EmailOutbox ("fe74b57e-a51a-4f5c-a4e8-76bd01fee41f") in 15ms - Success: true
+2026-10-07 12:15:07.023 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("fe74b57e-a51a-4f5c-a4e8-76bd01fee41f") from ExecutionTaskHandler
+2026-10-07 12:15:07.023 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("395003ed-86b2-4beb-8ef5-a7ca6797ceae") from ExecutionTaskHandler
+2026-10-07 12:15:07.048 +01:00 [INF] TickerQ Job completed: SmsOutbox ("395003ed-86b2-4beb-8ef5-a7ca6797ceae") in 12ms - Success: true
+2026-10-07 12:15:07.552 +01:00 [INF] TickerQ Job completed: EmailOutbox ("fe74b57e-a51a-4f5c-a4e8-76bd01fee41f") in 519ms - Success: true
+2026-10-07 12:16:14.630 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("890cc1c2-57d9-4916-a1f9-111a2e2f85db") from ExecutionTaskHandler
+2026-10-07 12:16:14.630 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9829a032-310f-4b1c-91de-387560490a13") from ExecutionTaskHandler
+2026-10-07 12:16:14.632 +01:00 [INF] TickerQ Job completed: SmsOutbox ("890cc1c2-57d9-4916-a1f9-111a2e2f85db") in 0ms - Success: true
+2026-10-07 12:16:14.642 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9829a032-310f-4b1c-91de-387560490a13") in 11ms - Success: true
+2026-10-07 12:18:37.617 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("890cc1c2-57d9-4916-a1f9-111a2e2f85db") from ExecutionTaskHandler
+2026-10-07 12:18:37.617 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9829a032-310f-4b1c-91de-387560490a13") from ExecutionTaskHandler
+2026-10-07 12:18:37.620 +01:00 [INF] TickerQ Job completed: SmsOutbox ("890cc1c2-57d9-4916-a1f9-111a2e2f85db") in 0ms - Success: true
+2026-10-07 12:18:37.629 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9829a032-310f-4b1c-91de-387560490a13") in 10ms - Success: true
+2026-10-07 12:37:25.405 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9b334e7f-10ad-4a0b-b1e0-a02cb0c1a296") from ExecutionTaskHandler
+2026-10-07 12:37:25.412 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9b334e7f-10ad-4a0b-b1e0-a02cb0c1a296") in 6ms - Success: true
+2026-10-07 12:54:30.889 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9b334e7f-10ad-4a0b-b1e0-a02cb0c1a296") from ExecutionTaskHandler
+2026-10-07 12:54:30.898 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9b334e7f-10ad-4a0b-b1e0-a02cb0c1a296") in 7ms - Success: true
+2026-10-07 13:12:57.563 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bb145b79-366a-4f43-a7ab-f42a4baf72e2") from ExecutionTaskHandler
+2026-10-07 13:12:58.119 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bb145b79-366a-4f43-a7ab-f42a4baf72e2") in 29ms - Success: true
+2026-10-07 13:12:58.302 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bb145b79-366a-4f43-a7ab-f42a4baf72e2") from ExecutionTaskHandler
+2026-10-07 13:12:58.311 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bb145b79-366a-4f43-a7ab-f42a4baf72e2") in 9ms - Success: true
+2026-10-07 13:13:00.130 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4a378349-0176-497f-ac4f-946f230b78d6") from ExecutionTaskHandler
+2026-10-07 13:13:00.144 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4a378349-0176-497f-ac4f-946f230b78d6") in 12ms - Success: true
+2026-10-07 13:14:00.170 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("71dfd0ee-56b2-499c-9ba7-22e475cc59ad") from ExecutionTaskHandler
+2026-10-07 13:14:00.171 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("6369f010-6a53-421a-b388-948f4e1f8659") from ExecutionTaskHandler
+2026-10-07 13:14:00.186 +01:00 [INF] TickerQ Job completed: SmsOutbox ("6369f010-6a53-421a-b388-948f4e1f8659") in 10ms - Success: true
+2026-10-07 13:14:00.218 +01:00 [INF] TickerQ Job completed: EmailOutbox ("71dfd0ee-56b2-499c-9ba7-22e475cc59ad") in 44ms - Success: true
+2026-10-07 13:15:00.076 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("249dade7-e5d4-4183-84cd-4ece6408774f") from ExecutionTaskHandler
+2026-10-07 13:15:00.120 +01:00 [INF] TickerQ Job completed: EmailOutbox ("249dade7-e5d4-4183-84cd-4ece6408774f") in 40ms - Success: true
+2026-10-07 13:16:00.064 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f397fcac-914c-40b9-9f14-2ca86eabdc60") from ExecutionTaskHandler
+2026-10-07 13:16:00.065 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("7c90fbdc-5149-4ac0-8dfc-9a6813b0bfb5") from ExecutionTaskHandler
+2026-10-07 13:16:00.069 +01:00 [INF] TickerQ Job completed: SmsOutbox ("7c90fbdc-5149-4ac0-8dfc-9a6813b0bfb5") in 2ms - Success: true
+2026-10-07 13:16:00.082 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f397fcac-914c-40b9-9f14-2ca86eabdc60") in 17ms - Success: true
+2026-10-07 13:17:00.036 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("47ed2975-ce16-454f-b34c-74a41c222a74") from ExecutionTaskHandler
+2026-10-07 13:17:00.055 +01:00 [INF] TickerQ Job completed: EmailOutbox ("47ed2975-ce16-454f-b34c-74a41c222a74") in 14ms - Success: true
+2026-10-07 13:18:00.036 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("3c5e2796-a223-430e-a5a4-a16fc3fc0066") from ExecutionTaskHandler
+2026-10-07 13:18:00.038 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("f2174dfe-ee17-4325-83a9-f513e02289b5") from ExecutionTaskHandler
+2026-10-07 13:18:00.048 +01:00 [INF] TickerQ Job completed: SmsOutbox ("f2174dfe-ee17-4325-83a9-f513e02289b5") in 8ms - Success: true
+2026-10-07 13:18:00.058 +01:00 [INF] TickerQ Job completed: EmailOutbox ("3c5e2796-a223-430e-a5a4-a16fc3fc0066") in 18ms - Success: true
+2026-10-07 13:19:00.029 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("585e7599-6dda-4251-a09c-c66bba238225") from ExecutionTaskHandler
+2026-10-07 13:19:00.047 +01:00 [INF] TickerQ Job completed: EmailOutbox ("585e7599-6dda-4251-a09c-c66bba238225") in 13ms - Success: true
+2026-10-07 13:20:00.023 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("fb327378-e807-4da6-951c-fc2f10d38570") from ExecutionTaskHandler
+2026-10-07 13:20:00.024 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("68bff527-824a-46d5-9ad6-bb29c2c80ba3") from ExecutionTaskHandler
+2026-10-07 13:20:00.029 +01:00 [INF] TickerQ Job completed: SmsOutbox ("68bff527-824a-46d5-9ad6-bb29c2c80ba3") in 2ms - Success: true
+2026-10-07 13:20:00.061 +01:00 [INF] TickerQ Job completed: EmailOutbox ("fb327378-e807-4da6-951c-fc2f10d38570") in 35ms - Success: true
+2026-10-07 13:21:00.144 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("e6c0efd5-0916-4fc1-a4d9-92505cf83b39") from ExecutionTaskHandler
+2026-10-07 13:21:00.225 +01:00 [INF] TickerQ Job completed: EmailOutbox ("e6c0efd5-0916-4fc1-a4d9-92505cf83b39") in 79ms - Success: true
+2026-10-07 13:22:00.233 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("81a43ae3-db65-42c9-b1d6-e23dae11d343") from ExecutionTaskHandler
+2026-10-07 13:22:00.234 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7d9b0a30-f42f-46bc-802c-ca2811360dc8") from ExecutionTaskHandler
+2026-10-07 13:22:00.237 +01:00 [INF] TickerQ Job completed: SmsOutbox ("81a43ae3-db65-42c9-b1d6-e23dae11d343") in 1ms - Success: true
+2026-10-07 13:22:00.192 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7d9b0a30-f42f-46bc-802c-ca2811360dc8") in 91ms - Success: true
+2026-10-07 13:23:00.169 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("fab013f6-f717-4c12-b00f-280b2b7b2fd0") from ExecutionTaskHandler
+2026-10-07 13:23:00.179 +01:00 [INF] TickerQ Job completed: EmailOutbox ("fab013f6-f717-4c12-b00f-280b2b7b2fd0") in 8ms - Success: true
+2026-10-07 13:24:00.034 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("bd26f77b-c2e7-4dbf-b1fb-467b2590b00d") from ExecutionTaskHandler
+2026-10-07 13:24:00.035 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("2d2b4ac1-5d54-413d-971e-b3faf88674a9") from ExecutionTaskHandler
+2026-10-07 13:24:00.038 +01:00 [INF] TickerQ Job completed: SmsOutbox ("bd26f77b-c2e7-4dbf-b1fb-467b2590b00d") in 1ms - Success: true
+2026-10-07 13:24:00.043 +01:00 [INF] TickerQ Job completed: EmailOutbox ("2d2b4ac1-5d54-413d-971e-b3faf88674a9") in 6ms - Success: true
+2026-10-07 13:25:00.025 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("884e83b5-2d3c-4c79-99eb-64cfd9dce04f") from ExecutionTaskHandler
+2026-10-07 13:25:00.061 +01:00 [INF] TickerQ Job completed: EmailOutbox ("884e83b5-2d3c-4c79-99eb-64cfd9dce04f") in 33ms - Success: true
+2026-10-07 13:26:00.059 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("7c762922-b1ec-4e70-9529-c848d167d21d") from ExecutionTaskHandler
+2026-10-07 13:26:00.059 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4624f80e-8fa8-4beb-86c6-b644b93bb384") from ExecutionTaskHandler
+2026-10-07 13:26:00.070 +01:00 [INF] TickerQ Job completed: SmsOutbox ("7c762922-b1ec-4e70-9529-c848d167d21d") in 6ms - Success: true
+2026-10-07 13:26:00.080 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4624f80e-8fa8-4beb-86c6-b644b93bb384") in 16ms - Success: true
+2026-10-07 13:27:00.032 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("e03839fa-2c05-45ad-8fcd-e34597f8be67") from ExecutionTaskHandler
+2026-10-07 13:27:00.040 +01:00 [INF] TickerQ Job completed: EmailOutbox ("e03839fa-2c05-45ad-8fcd-e34597f8be67") in 6ms - Success: true
+2026-10-07 13:28:00.035 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("18f7a363-9c76-40ed-ad7f-ed9493d3f41f") from ExecutionTaskHandler
+2026-10-07 13:28:00.037 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("be81dc1e-98c7-42be-9151-86df77e5c0f6") from ExecutionTaskHandler
+2026-10-07 13:28:00.039 +01:00 [INF] TickerQ Job completed: SmsOutbox ("be81dc1e-98c7-42be-9151-86df77e5c0f6") in 0ms - Success: true
+2026-10-07 13:28:00.073 +01:00 [INF] TickerQ Job completed: EmailOutbox ("18f7a363-9c76-40ed-ad7f-ed9493d3f41f") in 35ms - Success: true
+2026-10-07 13:29:00.026 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d38a0314-e18d-4fc2-897c-a511ae6e1df7") from ExecutionTaskHandler
+2026-10-07 13:29:00.039 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d38a0314-e18d-4fc2-897c-a511ae6e1df7") in 10ms - Success: true
+2026-10-07 13:30:00.020 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("2925740d-519a-457b-b253-66472a76f263") from ExecutionTaskHandler
+2026-10-07 13:30:00.021 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("da5e185c-1fc0-4a4f-9809-146b2f45bc7b") from ExecutionTaskHandler
+2026-10-07 13:30:00.024 +01:00 [INF] TickerQ Job completed: SmsOutbox ("da5e185c-1fc0-4a4f-9809-146b2f45bc7b") in 1ms - Success: true
+2026-10-07 13:30:00.054 +01:00 [INF] TickerQ Job completed: EmailOutbox ("2925740d-519a-457b-b253-66472a76f263") in 31ms - Success: true
+2026-10-07 13:31:00.042 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("bd40924d-9e39-4823-b98e-abcb92e55847") from ExecutionTaskHandler
+2026-10-07 13:31:00.056 +01:00 [INF] TickerQ Job completed: EmailOutbox ("bd40924d-9e39-4823-b98e-abcb92e55847") in 11ms - Success: true
+2026-10-07 13:32:00.026 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("f71f6039-f69b-4bbb-9160-057d18881cc2") from ExecutionTaskHandler
+2026-10-07 13:32:00.026 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("811de545-69dc-44c2-80f1-d3ddd3e2d270") from ExecutionTaskHandler
+2026-10-07 13:32:00.029 +01:00 [INF] TickerQ Job completed: SmsOutbox ("811de545-69dc-44c2-80f1-d3ddd3e2d270") in 1ms - Success: true
+2026-10-07 13:32:00.037 +01:00 [INF] TickerQ Job completed: EmailOutbox ("f71f6039-f69b-4bbb-9160-057d18881cc2") in 9ms - Success: true
+2026-10-07 13:33:00.024 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("a5f50f4a-5792-4a52-bc5f-2a5318463cc6") from ExecutionTaskHandler
+2026-10-07 13:33:00.033 +01:00 [INF] TickerQ Job completed: EmailOutbox ("a5f50f4a-5792-4a52-bc5f-2a5318463cc6") in 5ms - Success: true
+2026-10-07 13:34:00.023 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9de84272-ff9e-4633-9b8b-f1013f6ba912") from ExecutionTaskHandler
+2026-10-07 13:34:00.023 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("1d0755bf-bbbd-4604-9373-a4e0ba0a3c36") from ExecutionTaskHandler
+2026-10-07 13:34:00.028 +01:00 [INF] TickerQ Job completed: SmsOutbox ("1d0755bf-bbbd-4604-9373-a4e0ba0a3c36") in 2ms - Success: true
+2026-10-07 13:34:00.043 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9de84272-ff9e-4633-9b8b-f1013f6ba912") in 17ms - Success: true
+2026-10-07 13:35:00.029 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("94da3b58-49db-44e5-addf-245df7be29f0") from ExecutionTaskHandler
+2026-10-07 13:35:00.058 +01:00 [INF] TickerQ Job completed: EmailOutbox ("94da3b58-49db-44e5-addf-245df7be29f0") in 25ms - Success: true
+2026-10-07 13:36:00.099 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("13e6c449-6640-4c50-9e8b-08eaf7563558") from ExecutionTaskHandler
+2026-10-07 13:36:00.099 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("da8d1ad9-380c-409b-8e29-ed4fd6cebb0d") from ExecutionTaskHandler
+2026-10-07 13:36:00.103 +01:00 [INF] TickerQ Job completed: SmsOutbox ("da8d1ad9-380c-409b-8e29-ed4fd6cebb0d") in 1ms - Success: true
+2026-10-07 13:36:00.118 +01:00 [INF] TickerQ Job completed: EmailOutbox ("13e6c449-6640-4c50-9e8b-08eaf7563558") in 16ms - Success: true
+2026-10-07 13:37:00.023 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("71a123ee-82e7-4b42-a3f4-ff2f40dfab6b") from ExecutionTaskHandler
+2026-10-07 13:37:00.039 +01:00 [INF] TickerQ Job completed: EmailOutbox ("71a123ee-82e7-4b42-a3f4-ff2f40dfab6b") in 13ms - Success: true
+2026-10-07 13:38:00.147 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("acdd1d12-bb91-477c-9113-478fbfb9ab72") from ExecutionTaskHandler
+2026-10-07 13:38:00.147 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("d439509b-123d-44ed-a5d5-4e551f588197") from ExecutionTaskHandler
+2026-10-07 13:38:00.150 +01:00 [INF] TickerQ Job completed: SmsOutbox ("d439509b-123d-44ed-a5d5-4e551f588197") in 1ms - Success: true
+2026-10-07 13:38:00.207 +01:00 [INF] TickerQ Job completed: EmailOutbox ("acdd1d12-bb91-477c-9113-478fbfb9ab72") in 57ms - Success: true
+2026-10-07 13:39:00.050 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9655c14a-10a3-4c13-b81e-fed20d8016d1") from ExecutionTaskHandler
+2026-10-07 13:39:00.077 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9655c14a-10a3-4c13-b81e-fed20d8016d1") in 24ms - Success: true
+2026-10-07 13:40:00.040 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("661163b1-b4f9-49a1-a80e-bec82829917f") from ExecutionTaskHandler
+2026-10-07 13:40:00.040 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("1d916052-4785-4e56-8f72-6b91f5535e4d") from ExecutionTaskHandler
+2026-10-07 13:40:00.045 +01:00 [INF] TickerQ Job completed: SmsOutbox ("1d916052-4785-4e56-8f72-6b91f5535e4d") in 1ms - Success: true
+2026-10-07 13:40:00.086 +01:00 [INF] TickerQ Job completed: EmailOutbox ("661163b1-b4f9-49a1-a80e-bec82829917f") in 43ms - Success: true
+2026-10-07 13:41:00.071 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("4e17d9cf-f1c1-4a59-a5e6-6e2dbf4abae8") from ExecutionTaskHandler
+2026-10-07 13:41:00.106 +01:00 [INF] TickerQ Job completed: EmailOutbox ("4e17d9cf-f1c1-4a59-a5e6-6e2dbf4abae8") in 21ms - Success: true
+2026-10-07 13:42:00.051 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("8d3e1b67-0d18-4851-ae4a-2eadab319322") from ExecutionTaskHandler
+2026-10-07 13:42:00.053 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("fddc9e66-324f-424c-9be9-80a5d67a24d4") from ExecutionTaskHandler
+2026-10-07 13:42:00.055 +01:00 [INF] TickerQ Job completed: SmsOutbox ("fddc9e66-324f-424c-9be9-80a5d67a24d4") in 0ms - Success: true
+2026-10-07 13:42:00.063 +01:00 [INF] TickerQ Job completed: EmailOutbox ("8d3e1b67-0d18-4851-ae4a-2eadab319322") in 9ms - Success: true
+2026-10-07 13:43:00.172 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7892521d-1089-4415-a069-b7e6ab85b3ce") from ExecutionTaskHandler
+2026-10-07 13:43:00.197 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7892521d-1089-4415-a069-b7e6ab85b3ce") in 23ms - Success: true
+2026-10-07 13:44:00.499 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("6e9ba280-4ded-4985-a0f5-b6a112f45209") from ExecutionTaskHandler
+2026-10-07 13:44:00.496 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6604bdab-db03-4430-a555-56c47c934e97") from ExecutionTaskHandler
+2026-10-07 13:44:00.534 +01:00 [INF] TickerQ Job completed: SmsOutbox ("6e9ba280-4ded-4985-a0f5-b6a112f45209") in 22ms - Success: true
+2026-10-07 13:44:00.612 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6604bdab-db03-4430-a555-56c47c934e97") in 101ms - Success: true
+2026-10-07 13:45:00.408 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6efeae8a-dacd-4792-a823-180a0560bf34") from ExecutionTaskHandler
+2026-10-07 13:45:00.470 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6efeae8a-dacd-4792-a823-180a0560bf34") in 59ms - Success: true
+2026-10-07 13:46:00.094 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("69a0d943-eeab-4bb9-8e62-297734158b82") from ExecutionTaskHandler
+2026-10-07 13:46:00.094 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("af1fedb6-a204-4da7-a7f0-222475947db3") from ExecutionTaskHandler
+2026-10-07 13:46:00.103 +01:00 [INF] TickerQ Job completed: SmsOutbox ("69a0d943-eeab-4bb9-8e62-297734158b82") in 5ms - Success: true
+2026-10-07 13:46:00.109 +01:00 [INF] TickerQ Job completed: EmailOutbox ("af1fedb6-a204-4da7-a7f0-222475947db3") in 11ms - Success: true
+2026-10-07 13:47:00.042 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("ae5d7683-0aa0-475e-bafa-3a14f863a46a") from ExecutionTaskHandler
+2026-10-07 13:47:00.057 +01:00 [INF] TickerQ Job completed: EmailOutbox ("ae5d7683-0aa0-475e-bafa-3a14f863a46a") in 12ms - Success: true
+2026-10-07 13:48:00.032 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("bd26dc70-f7a1-43be-9888-8f61edc05dd0") from ExecutionTaskHandler
+2026-10-07 13:48:00.032 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d74f3d24-cc00-4fcf-8e92-1b770da33ce1") from ExecutionTaskHandler
+2026-10-07 13:48:00.038 +01:00 [INF] TickerQ Job completed: SmsOutbox ("bd26dc70-f7a1-43be-9888-8f61edc05dd0") in 3ms - Success: true
+2026-10-07 13:48:00.041 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d74f3d24-cc00-4fcf-8e92-1b770da33ce1") in 6ms - Success: true
+2026-10-07 13:49:00.032 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("70664c5c-15bf-4d10-9301-9645509661eb") from ExecutionTaskHandler
+2026-10-07 13:49:00.044 +01:00 [INF] TickerQ Job completed: EmailOutbox ("70664c5c-15bf-4d10-9301-9645509661eb") in 9ms - Success: true
+2026-10-07 13:50:00.035 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("f6fde3c5-6c06-428a-8771-893a6df4e904") from ExecutionTaskHandler
+2026-10-07 13:50:00.035 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("7af84f8b-6c8c-48cd-b1fe-817d0676c11d") from ExecutionTaskHandler
+2026-10-07 13:50:00.044 +01:00 [INF] TickerQ Job completed: SmsOutbox ("f6fde3c5-6c06-428a-8771-893a6df4e904") in 1ms - Success: true
+2026-10-07 13:50:00.079 +01:00 [INF] TickerQ Job completed: EmailOutbox ("7af84f8b-6c8c-48cd-b1fe-817d0676c11d") in 37ms - Success: true
+2026-10-07 13:51:00.062 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("89c4e06e-598b-4c75-8118-f6cbe4a188e6") from ExecutionTaskHandler
+2026-10-07 13:51:00.082 +01:00 [INF] TickerQ Job completed: EmailOutbox ("89c4e06e-598b-4c75-8118-f6cbe4a188e6") in 15ms - Success: true
+2026-10-07 13:52:00.036 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("33fd4c88-715f-48e3-a794-49b36b3ef01e") from ExecutionTaskHandler
+2026-10-07 13:52:00.036 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("a1aeb251-f396-4c73-87fe-aa978f948efb") from ExecutionTaskHandler
+2026-10-07 13:52:00.042 +01:00 [INF] TickerQ Job completed: SmsOutbox ("33fd4c88-715f-48e3-a794-49b36b3ef01e") in 4ms - Success: true
+2026-10-07 13:52:00.051 +01:00 [INF] TickerQ Job completed: EmailOutbox ("a1aeb251-f396-4c73-87fe-aa978f948efb") in 13ms - Success: true
+2026-10-07 13:52:59.919 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("1e15ba4a-397d-490b-8040-71f9814d1a17") from ExecutionTaskHandler
+2026-10-07 13:52:59.927 +01:00 [INF] TickerQ Job completed: EmailOutbox ("1e15ba4a-397d-490b-8040-71f9814d1a17") in 5ms - Success: true
+2026-10-07 13:54:00.061 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("a30e02f1-1625-4ddf-b156-197263eb67c3") from ExecutionTaskHandler
+2026-10-07 13:54:00.062 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("d8ba44ce-cd19-45c3-8100-239dc9ed9f07") from ExecutionTaskHandler
+2026-10-07 13:54:00.064 +01:00 [INF] TickerQ Job completed: SmsOutbox ("d8ba44ce-cd19-45c3-8100-239dc9ed9f07") in 1ms - Success: true
+2026-10-07 13:54:00.088 +01:00 [INF] TickerQ Job completed: EmailOutbox ("a30e02f1-1625-4ddf-b156-197263eb67c3") in 24ms - Success: true
+2026-10-07 13:55:00.037 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("a46c44df-dafe-4970-8ea9-7f8f94fd3022") from ExecutionTaskHandler
+2026-10-07 13:55:00.049 +01:00 [INF] TickerQ Job completed: EmailOutbox ("a46c44df-dafe-4970-8ea9-7f8f94fd3022") in 10ms - Success: true
+2026-10-07 13:56:00.051 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("5cad8e41-7d2b-46cb-9a6f-f7d12c47e945") from ExecutionTaskHandler
+2026-10-07 13:56:00.051 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("bcb51445-6aee-4beb-8056-0730ab98dc42") from ExecutionTaskHandler
+2026-10-07 13:56:00.054 +01:00 [INF] TickerQ Job completed: SmsOutbox ("bcb51445-6aee-4beb-8056-0730ab98dc42") in 1ms - Success: true
+2026-10-07 13:56:00.084 +01:00 [INF] TickerQ Job completed: EmailOutbox ("5cad8e41-7d2b-46cb-9a6f-f7d12c47e945") in 31ms - Success: true
+2026-10-07 13:57:00.043 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d8430fe6-fbcd-418b-ad58-f8eb42ca624f") from ExecutionTaskHandler
+2026-10-07 13:57:00.059 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d8430fe6-fbcd-418b-ad58-f8eb42ca624f") in 14ms - Success: true
+2026-10-07 13:58:00.044 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6a51ca0b-171d-495d-b239-01ac829c1370") from ExecutionTaskHandler
+2026-10-07 13:58:00.044 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("bd88d06a-72e1-4e63-9ab3-be9ae8ab0d7a") from ExecutionTaskHandler
+2026-10-07 13:58:00.047 +01:00 [INF] TickerQ Job completed: SmsOutbox ("bd88d06a-72e1-4e63-9ab3-be9ae8ab0d7a") in 1ms - Success: true
+2026-10-07 13:58:00.056 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6a51ca0b-171d-495d-b239-01ac829c1370") in 10ms - Success: true
+2026-10-07 13:59:00.052 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("feef12c8-e2aa-4392-b932-eb3a367a96b0") from ExecutionTaskHandler
+2026-10-07 13:59:00.073 +01:00 [INF] TickerQ Job completed: EmailOutbox ("feef12c8-e2aa-4392-b932-eb3a367a96b0") in 18ms - Success: true
+2026-10-07 14:00:00.034 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("cdd6c3d3-4056-4ddf-b355-2227df09cfd1") from ExecutionTaskHandler
+2026-10-07 14:00:00.034 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - PaymentTimeout ("f36bc849-f19e-4b23-8df5-9443e6cfd666") from ExecutionTaskHandler
+2026-10-07 14:00:00.034 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("dae04017-c16b-422c-863f-da935c2904eb") from ExecutionTaskHandler
+2026-10-07 14:00:00.038 +01:00 [INF] TickerQ Job completed: SmsOutbox ("dae04017-c16b-422c-863f-da935c2904eb") in 1ms - Success: true
+2026-10-07 14:00:00.079 +01:00 [INF] TickerQ Job completed: EmailOutbox ("cdd6c3d3-4056-4ddf-b355-2227df09cfd1") in 43ms - Success: true
+2026-10-07 14:00:00.086 +01:00 [INF] PaymentTimeout job ran — no expired transactions.
+2026-10-07 14:00:00.086 +01:00 [INF] TickerQ Job completed: PaymentTimeout ("f36bc849-f19e-4b23-8df5-9443e6cfd666") in 50ms - Success: true
+2026-10-07 14:01:00.063 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("18f392d4-ebb8-43e5-8662-adb7d8a47086") from ExecutionTaskHandler
+2026-10-07 14:01:00.102 +01:00 [INF] TickerQ Job completed: EmailOutbox ("18f392d4-ebb8-43e5-8662-adb7d8a47086") in 25ms - Success: true
+2026-10-07 14:02:00.061 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("61f5105f-44e6-47af-a9ab-7ec6350e5d73") from ExecutionTaskHandler
+2026-10-07 14:02:00.062 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("c816461e-1f87-4f85-a97d-b0a72bf430b0") from ExecutionTaskHandler
+2026-10-07 14:02:00.071 +01:00 [INF] TickerQ Job completed: SmsOutbox ("c816461e-1f87-4f85-a97d-b0a72bf430b0") in 0ms - Success: true
+2026-10-07 14:02:00.087 +01:00 [INF] TickerQ Job completed: EmailOutbox ("61f5105f-44e6-47af-a9ab-7ec6350e5d73") in 21ms - Success: true
+2026-10-07 14:03:00.086 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d8d97888-6d30-4a21-99cf-2608ee9d488d") from ExecutionTaskHandler
+2026-10-07 14:03:00.104 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d8d97888-6d30-4a21-99cf-2608ee9d488d") in 15ms - Success: true
+2026-10-07 14:04:00.131 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("adca3cc5-1dad-42f9-83bd-64a2c719bf42") from ExecutionTaskHandler
+2026-10-07 14:04:00.131 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("2dbce7d0-41c1-45c5-b54d-0ddb6201cb04") from ExecutionTaskHandler
+2026-10-07 14:04:00.135 +01:00 [INF] TickerQ Job completed: SmsOutbox ("adca3cc5-1dad-42f9-83bd-64a2c719bf42") in 2ms - Success: true
+2026-10-07 14:04:00.150 +01:00 [INF] TickerQ Job completed: EmailOutbox ("2dbce7d0-41c1-45c5-b54d-0ddb6201cb04") in 16ms - Success: true
+2026-10-07 14:05:00.030 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("631d4016-caf3-449a-bef2-54def1b03e1b") from ExecutionTaskHandler
+2026-10-07 14:05:00.049 +01:00 [INF] TickerQ Job completed: EmailOutbox ("631d4016-caf3-449a-bef2-54def1b03e1b") in 15ms - Success: true
+2026-10-07 14:06:00.055 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("21056a0b-e5ad-4e44-b2be-6c3993279a55") from ExecutionTaskHandler
+2026-10-07 14:06:00.055 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("a6ab5636-f34f-4731-976a-e63231d3790e") from ExecutionTaskHandler
+2026-10-07 14:06:00.059 +01:00 [INF] TickerQ Job completed: SmsOutbox ("a6ab5636-f34f-4731-976a-e63231d3790e") in 1ms - Success: true
+2026-10-07 14:06:00.086 +01:00 [INF] TickerQ Job completed: EmailOutbox ("21056a0b-e5ad-4e44-b2be-6c3993279a55") in 28ms - Success: true
+2026-10-07 14:07:00.032 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("faed8d9f-f3bc-46fe-a460-c8977c2287db") from ExecutionTaskHandler
+2026-10-07 14:07:00.047 +01:00 [INF] TickerQ Job completed: EmailOutbox ("faed8d9f-f3bc-46fe-a460-c8977c2287db") in 12ms - Success: true
+2026-10-07 14:08:00.048 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("1e9ef64b-9757-4ae8-9dab-4670b0904151") from ExecutionTaskHandler
+2026-10-07 14:08:00.048 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("84e2d08d-a02d-49cc-914e-60d7d8ce88db") from ExecutionTaskHandler
+2026-10-07 14:08:00.052 +01:00 [INF] TickerQ Job completed: SmsOutbox ("84e2d08d-a02d-49cc-914e-60d7d8ce88db") in 1ms - Success: true
+2026-10-07 14:08:00.064 +01:00 [INF] TickerQ Job completed: EmailOutbox ("1e9ef64b-9757-4ae8-9dab-4670b0904151") in 13ms - Success: true
+2026-10-07 14:09:00.120 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("1483665c-65b2-4d1e-9e03-7c29c3074915") from ExecutionTaskHandler
+2026-10-07 14:09:00.136 +01:00 [INF] TickerQ Job completed: EmailOutbox ("1483665c-65b2-4d1e-9e03-7c29c3074915") in 13ms - Success: true
+2026-10-07 14:10:00.054 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("ec9c3092-e11d-4642-8d75-001ccc77a2c1") from ExecutionTaskHandler
+2026-10-07 14:10:00.054 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("57e3f291-5cb9-4a64-b754-8fff62deaf50") from ExecutionTaskHandler
+2026-10-07 14:10:00.058 +01:00 [INF] TickerQ Job completed: SmsOutbox ("ec9c3092-e11d-4642-8d75-001ccc77a2c1") in 1ms - Success: true
+2026-10-07 14:10:00.096 +01:00 [INF] TickerQ Job completed: EmailOutbox ("57e3f291-5cb9-4a64-b754-8fff62deaf50") in 39ms - Success: true
+2026-10-07 14:11:00.066 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("67543e7b-bf5c-44b4-81e8-28e40d5926ca") from ExecutionTaskHandler
+2026-10-07 14:11:00.073 +01:00 [INF] TickerQ Job completed: EmailOutbox ("67543e7b-bf5c-44b4-81e8-28e40d5926ca") in 5ms - Success: true
+2026-10-07 14:12:00.057 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("f28b8ccd-aedd-4c52-9a67-d93eeaae48ee") from ExecutionTaskHandler
+2026-10-07 14:12:00.057 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("712f814d-9318-400f-97bd-4e6f0def4e70") from ExecutionTaskHandler
+2026-10-07 14:12:00.059 +01:00 [INF] TickerQ Job completed: SmsOutbox ("f28b8ccd-aedd-4c52-9a67-d93eeaae48ee") in 1ms - Success: true
+2026-10-07 14:12:00.072 +01:00 [INF] TickerQ Job completed: EmailOutbox ("712f814d-9318-400f-97bd-4e6f0def4e70") in 13ms - Success: true
+2026-10-07 14:13:00.030 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("d88a730e-3249-49d3-ac51-0ff7779ea25b") from ExecutionTaskHandler
+2026-10-07 14:13:00.036 +01:00 [INF] TickerQ Job completed: EmailOutbox ("d88a730e-3249-49d3-ac51-0ff7779ea25b") in 4ms - Success: true
+2026-10-07 14:14:00.030 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("6805c034-5f7b-4008-b1bf-25da0679b235") from ExecutionTaskHandler
+2026-10-07 14:14:00.031 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("b564c538-540c-4812-9919-171284283167") from ExecutionTaskHandler
+2026-10-07 14:14:00.034 +01:00 [INF] TickerQ Job completed: SmsOutbox ("b564c538-540c-4812-9919-171284283167") in 1ms - Success: true
+2026-10-07 14:14:00.041 +01:00 [INF] TickerQ Job completed: EmailOutbox ("6805c034-5f7b-4008-b1bf-25da0679b235") in 8ms - Success: true
+2026-10-07 14:15:00.029 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("9b56aebe-6417-44b5-b05f-fe5980ecb628") from ExecutionTaskHandler
+2026-10-07 14:15:00.064 +01:00 [INF] TickerQ Job completed: EmailOutbox ("9b56aebe-6417-44b5-b05f-fe5980ecb628") in 32ms - Success: true
+2026-10-07 14:16:00.046 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - SmsOutbox ("9edb3ef8-90ff-4e3f-bf7a-4f47d0f51b30") from ExecutionTaskHandler
+2026-10-07 14:16:00.046 +01:00 [INF] TickerQ Job enqueued: CronTickerOccurrence - EmailOutbox ("e3a9b270-c339-4dda-beea-f7a99fc7b9bf") from ExecutionTaskHandler
+2026-10-07 14:16:00.049 +01:00 [INF] TickerQ Job completed: SmsOutbox ("9edb3ef8-90ff-4e3f-bf7a-4f47d0f51b30") in 1ms - Success: true
+2026-10-07 14:16:00.060 +01:00 [INF] TickerQ Job completed: EmailOutbox ("e3a9b270-c339-4dda-beea-f7a99fc7b9bf") in 11ms - Success: true

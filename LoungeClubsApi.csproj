@@ -1,0 +1,266 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>LoungeClubsApi</RootNamespace>
+    <AssemblyName>LoungeClubsApi</AssemblyName>
+    <InterceptorsNamespaces>$(InterceptorsNamespaces);Microsoft.AspNetCore.Http.Validation.Generated</InterceptorsNamespaces>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+    <!-- Disabled: build-time generation needs a live DB connection (the app
+         migrates/seeds on startup). Runtime docs via Scalar are unaffected. -->
+    <OpenApiGenerateDocuments>false</OpenApiGenerateDocuments>
+    <OpenApiDocumentsDirectory>wwwroot/openapi</OpenApiDocumentsDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <!-- 🏗️  CORE FRAMEWORK & API STRUCTURE                                 -->
+    <!-- Packages that define how your API is organised, versioned,         -->
+    <!-- documented, and how its endpoints are structured.                  -->
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- Provides API Versioning for HTTP endpoints. Allows multiple        -->
+    <!-- versions of your API (e.g. /v1/ and /v2/) to run simultaneously   -->
+    <!-- and routes requests to the correct version automatically.          -->
+    <PackageReference Include="Asp.Versioning.Http" />
+
+    <!-- Extends API Versioning with ApiExplorer integration so that        -->
+    <!-- OpenAPI/Scalar can discover and document each version separately,  -->
+    <!-- producing a distinct spec per version (v1.json, v2.json).         -->
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" />
+
+    <!-- A lightweight library built on top of Minimal APIs that lets you   -->
+    <!-- organise endpoints into reusable ICarterModule classes instead of  -->
+    <!-- scattering them across one large Program.cs file.                  -->
+    <PackageReference Include="Carter" />
+
+    <!-- Generates the OpenAPI (Swagger) specification document that        -->
+    <!-- describes every endpoint, request body, response shape, and        -->
+    <!-- security requirement in your API at build time and at runtime.     -->
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+
+    <!-- The official OpenAPI object model used by Microsoft.AspNetCore     -->
+    <!-- .OpenApi under the hood. Required for writing custom document      -->
+    <!-- transformers (e.g. BearerSecuritySchemeTransformer).               -->
+    <PackageReference Include="Microsoft.OpenApi" />
+
+    <!-- Build-time tool that generates the OpenAPI JSON files into         -->
+    <!-- wwwroot/openapi during dotnet build so they can be served as       -->
+    <!-- static assets without starting the application.                    -->
+    <PackageReference Include="Microsoft.Extensions.ApiDescription.Server">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+
+    <!-- A modern, interactive API documentation UI that replaces Swagger   -->
+    <!-- UI. Reads your OpenAPI spec and renders a polished interface at    -->
+    <!-- /scalar/v1 where you can browse and test every endpoint.           -->
+    <PackageReference Include="Scalar.AspNetCore" />
+
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <!-- 🗄️  DATABASE & IDENTITY                                            -->
+    <!-- Packages that manage database access, schema migrations, and       -->
+    <!-- everything related to users, passwords, and roles.                 -->
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- The core Entity Framework Core ORM. Lets you model your database   -->
+    <!-- as C# classes and query it with LINQ instead of writing raw SQL.   -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+
+    <!-- The SQL Server database provider for EF Core. Translates your EF   -->
+    <!-- queries into SQL Server-specific T-SQL and manages the connection. -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <PackageReference Include="AWSSDK.S3" />
+
+    <!-- The MySQL database provider for EF Core. Allows the same EF Core  -->
+    <!-- code to target a MySQL database instead of SQL Server, controlled  -->
+    <!-- purely by which provider you register at startup.                  -->
+    <PackageReference Include="MySql.EntityFrameworkCore" />
+
+    <!-- Design-time tools required to run EF Core CLI commands such as     -->
+    <!-- "dotnet ef migrations add" and "dotnet ef database update".        -->
+    <!-- PrivateAssets=all means it is never included in the published app. -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+
+    <!-- Bridges ASP.NET Core Identity with EF Core. Provides the          -->
+    <!-- IdentityDbContext base class and automatically creates and manages -->
+    <!-- the AspNetUsers, AspNetRoles, and related tables in your database. -->
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <!-- 🛠️  LOGIC & ARCHITECTURE TOOLS                                     -->
+    <!-- Packages that enforce clean architecture patterns: mediator,       -->
+    <!-- validation, automatic DI registration, and object mapping.         -->
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- Implements the Mediator pattern. Decouples the code that sends a   -->
+    <!-- request (an endpoint) from the code that handles it (a handler),   -->
+    <!-- which is the foundation of a clean CQRS architecture.              -->
+    <PackageReference Include="Cortex.Mediator" />
+
+    <!-- Provides state machine primitives from the Cortex suite. Used to   -->
+    <!-- model entities that move through defined lifecycle states, such as -->
+    <!-- an order going from New → Processing → Ready → Delivered.         -->
+    <PackageReference Include="Cortex.States" />
+
+    <!-- Provides reactive data stream abstractions from the Cortex suite.  -->
+    <!-- Useful for processing sequences of events or pushing real-time     -->
+    <!-- updates through pipelines without tight coupling between layers.   -->
+    <PackageReference Include="Cortex.Streams" />
+
+    <!-- A strongly-typed validation library. You define rules in a         -->
+    <!-- dedicated validator class (e.g. .NotEmpty(), .EmailAddress())      -->
+    <!-- instead of scattering if-statements through your handlers.         -->
+    <PackageReference Include="FluentValidation" />
+
+    <!-- Adds extension methods so FluentValidation validators are          -->
+    <!-- automatically discovered and registered with the .NET DI           -->
+    <!-- container via a single AddValidatorsFromAssembly() call.           -->
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+
+    <!-- Extends the built-in DI container with assembly scanning. Instead  -->
+    <!-- of manually registering every service, Scrutor scans your project  -->
+    <!-- and registers all classes that match a naming convention at once.  -->
+    <PackageReference Include="Scrutor" />
+
+    <!-- A source-generator-based object mapper. At compile time it writes  -->
+    <!-- the mapping code between two classes (e.g. Entity → DTO) for you, -->
+    <!-- giving zero-reflection, high-performance mappings with no runtime  -->
+    <!-- overhead.                                                           -->
+    <PackageReference Include="Riok.Mapperly" />
+
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <!-- 🛰️  INTEGRATION & COMMUNICATION                                    -->
+    <!-- Packages for calling external REST APIs and sending emails.        -->
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- Turns external REST API calls into strongly-typed C# interfaces.   -->
+    <!-- You declare an interface with attributes describing the HTTP calls  -->
+    <!-- and Refit generates the implementation automatically at runtime.   -->
+    <PackageReference Include="Refit" />
+
+    <!-- Integrates Refit with IHttpClientFactory so your Refit clients     -->
+    <!-- benefit from connection pooling, lifetime management, resilience   -->
+    <!-- policies, and proper disposal of HttpClient instances.             -->
+    <PackageReference Include="Refit.HttpClientFactory" />
+
+    <!-- The industry-standard .NET library for constructing and sending    -->
+    <!-- emails over SMTP/IMAP. Handles authentication, TLS, attachments,  -->
+    <!-- and all low-level mail protocol details.                           -->
+    <PackageReference Include="MailKit" />
+
+    <!-- The companion library to MailKit that builds the email message     -->
+    <!-- itself — constructing MIME bodies, HTML/plain-text alternatives,   -->
+    <!-- inline images, and file attachments in the correct RFC format.     -->
+    <PackageReference Include="MimeKit" />
+
+    <!-- Enables JWT Bearer authentication. Intercepts incoming requests,   -->
+    <!-- validates the Authorization: Bearer token (signature, issuer,      -->
+    <!-- audience, expiry) and populates HttpContext.User with its claims.  -->
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <!-- 📄  REPORTING & BACKGROUND TASKS                                   -->
+    <!-- Packages for generating PDF documents and running scheduled or     -->
+    <!-- background jobs outside the HTTP request lifecycle.                -->
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- A code-first PDF generation engine. You describe the document      -->
+    <!-- layout in C# using a fluent API (rows, columns, tables, images)    -->
+    <!-- and QuestPDF renders a pixel-perfect PDF.                          -->
+    <PackageReference Include="QuestPDF" />
+
+    <!-- Extends QuestPDF with an HTML renderer so you can pass an HTML     -->
+    <!-- string as a section of your PDF layout — useful for rich text      -->
+    <!-- content such as order notes or email-style receipt bodies.         -->
+    <PackageReference Include="QuestPDF.HTML" />
+    <PackageReference Include="QRCoder" />
+
+    <!-- The core TickerQ background job scheduler. Lets you define jobs    -->
+    <!-- that run on a schedule or are triggered by events, entirely within -->
+    <!-- your .NET process without an external queue server.                -->
+    <PackageReference Include="TickerQ" />
+
+    <!-- Adds a browser-based dashboard UI for TickerQ so you can monitor  -->
+    <!-- scheduled jobs, view their history, and trigger them manually      -->
+    <!-- without touching the database directly.                            -->
+    <PackageReference Include="TickerQ.Dashboard" />
+
+    <!-- Persists TickerQ job schedules and execution history to your       -->
+    <!-- database via EF Core so jobs survive application restarts and      -->
+    <!-- their history is queryable alongside your own data.                -->
+    <PackageReference Include="TickerQ.EntityFrameworkCore" />
+
+    <!-- Shared utility types and helpers used across the TickerQ suite,    -->
+    <!-- such as job definition interfaces, result types, and the           -->
+    <!-- attributes used to mark methods as scheduled job handlers.         -->
+    <PackageReference Include="TickerQ.Utilities" />
+
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <!-- 📜  LOGGING (SERILOG STACK)                                        -->
+    <!-- A structured logging pipeline that replaces the default .NET       -->
+    <!-- logger with rich, queryable, sink-based log output.                -->
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- The core Serilog library. Provides the ILogger interface, the      -->
+    <!-- LoggerConfiguration builder, and the structured logging pipeline   -->
+    <!-- that all other Serilog packages plug into.                         -->
+    <PackageReference Include="Serilog" />
+
+    <!-- Integrates Serilog into the ASP.NET Core pipeline. Provides        -->
+    <!-- UseSerilog() for the host and UseSerilogRequestLogging() which     -->
+    <!-- replaces verbose framework logs with one clean line per request.   -->
+    <PackageReference Include="Serilog.AspNetCore" />
+
+    <!-- Allows Serilog to be registered as the ILogger used by the .NET   -->
+    <!-- Generic Host, ensuring all host lifecycle events (start, stop,     -->
+    <!-- config reload) flow through Serilog instead of the default logger. -->
+    <PackageReference Include="Serilog.Extensions.Hosting" />
+
+    <!-- Bridges Serilog with Microsoft.Extensions.Logging so that any      -->
+    <!-- library that logs via the standard ILogger<T> interface            -->
+    <!-- automatically routes its output through your Serilog pipeline.     -->
+    <PackageReference Include="Serilog.Extensions.Logging" />
+
+    <!-- Lets Serilog read its minimum level, overrides, and sink           -->
+    <!-- configuration from appsettings.json so you can change log          -->
+    <!-- verbosity per environment without recompiling the application.     -->
+    <PackageReference Include="Serilog.Settings.Configuration" />
+
+    <!-- A Serilog sink that writes log events to the terminal window.      -->
+    <!-- Supports themed output with colour-coded log levels so you can     -->
+    <!-- spot warnings and errors at a glance during development.           -->
+    <PackageReference Include="Serilog.Sinks.Console" />
+
+    <!-- A Serilog sink that writes log events to rolling log files in the  -->
+    <!-- /Logs folder. Supports daily roll-over, size limits, and           -->
+    <!-- automatic cleanup of old log files.                                -->
+    <PackageReference Include="Serilog.Sinks.File" />
+
+    <!-- An enricher that deeply inspects exception objects when they are   -->
+    <!-- logged and adds all their properties (inner exceptions, custom     -->
+    <!-- fields, data dictionary) as structured log properties.             -->
+    <PackageReference Include="Serilog.Exceptions" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
+    <Folder Include="Logs\" />
+    <Folder Include="wwwroot\assets\" />
+    <Folder Include="wwwroot\openapi\" />
+  </ItemGroup>
+
+</Project>

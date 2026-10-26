@@ -1,0 +1,9 @@
+bin/
+obj/
+*.user
+.env
+.env.*
+appsettings.*.local.json
+wwwroot/uploads/
+*.log
+.DS_Store
